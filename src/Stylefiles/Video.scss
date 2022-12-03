@@ -1,0 +1,102 @@
+@import './Mixin.scss';
+
+.section-videography{
+    position: relative;
+    padding: 8.5rem 21rem 10rem;
+    background-color: rgba(255, 255, 255, 0);
+
+    @include respond(tab-land){
+        padding: 8.5rem 16rem 10rem;
+    }
+
+    @include respond(tab-port){
+        padding: 8.5rem 15rem 10rem;
+    }
+
+    @include respond(phone){
+        padding: 7rem 5.5rem 6rem;
+    }
+}
+
+.bg-video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    opacity: .17;
+    overflow: hidden;
+    z-index: -1;
+
+    &__content{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+}
+
+.v-graphy{
+    width: 75%;
+    margin: 4rem auto;
+    box-shadow: 0 3rem 6rem rgba(black, .1);
+    background-color: rgba($color: white, $alpha: .6);
+    border-radius: .3rem;
+    padding: 5rem;
+    padding-left: 9rem;
+    font-size: 1.6rem;
+    transform: skewX(-12deg);
+
+    @include respond(tab-port){
+    width: 100%;
+    padding: 4rem;
+    padding-left: 7rem;
+    }
+
+    @include respond(phone){
+        transform: skewX(0);
+        width: 100%;
+        padding: 2.8rem 1.8rem 2rem 2rem;
+        margin: 0 auto 4rem;
+    }
+
+
+    &__shape{
+        width: 15rem;
+        height: 15rem;
+        float: left;
+        -webkit-shape-outside: circle(50% at 50% 50%);
+        shape-outside: circle(45% at 50% 50%);
+        -webkit-clip-path: circle(50% at 50% 50%);
+        clip-path: circle(50% at 50% 50%);
+        transform: translateX(-3rem) skewX(12deg);
+        position: relative;
+
+        // @include respond(tab-port){
+        //     margin-top: 5rem;
+        //     shape-outside: circle(40% at 40% 60%);
+        // }
+
+        @include respond(phone){
+            transform: translateX(-1rem) skewX(0);
+            shape-outside: circle(45% at 59% 50%);
+        }
+    }
+
+    &__img{
+        height: 100%;
+        width: 100%;
+
+    }
+
+    &__text{
+        transform: skewX(12deg);
+
+        @include respond(phone){
+            transform: skewX(0);
+        }
+    }
+
+    &__para{
+        margin: 0;
+    }
+}

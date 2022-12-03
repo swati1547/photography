@@ -1,0 +1,63 @@
+.section-about {
+  padding: 14rem 20rem;
+  margin-top: -20vh;
+}
+@media (max-width: 75em) {
+  .section-about {
+    padding: 12rem 18rem;
+  }
+}
+@media (max-width: 56.25em) {
+  .section-about {
+    padding: 12rem 16rem;
+  }
+}
+@media (max-width: 37.5em) {
+  .section-about {
+    padding: 8rem 6rem 10rem;
+  }
+}
+
+.section-services {
+  margin-top: -5rem;
+  padding: 14rem 20rem 13rem;
+}
+@media (max-width: 75em) {
+  .section-services {
+    padding: 13rem 21rem 10rem;
+  }
+}
+@media (max-width: 56.25em) {
+  .section-services {
+    padding: 13rem 18rem 10rem;
+  }
+}
+@media (max-width: 37.5em) {
+  .section-services {
+    padding: 9rem 7rem 5rem;
+  }
+}
+
+.section-celebrity {
+  padding: 25rem 20rem 15rem;
+  margin-top: -20vh;
+}
+@media (max-width: 75em) {
+  .section-celebrity {
+    padding: 13rem 24rem 10rem;
+  }
+}
+@media (max-width: 56.25em) {
+  .section-celebrity {
+    padding: 15rem 15rem;
+  }
+}
+@media (max-width: 37.5em) {
+  .section-celebrity {
+    padding: 17rem 7rem 5rem;
+  }
+}
+
+.carousel-section {
+  margin: 3rem 0 0;
+}/*# sourceMappingURL=Sections.css.map */

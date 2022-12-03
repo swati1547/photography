@@ -1,0 +1,68 @@
+.Pricing-section {
+  margin: 0.5rem;
+  margin-top: 7rem;
+  padding: 0 30rem 10rem;
+}
+
+.price-plans {
+  text-align: center;
+  margin: 4rem 0;
+}
+
+.price-head {
+  margin-bottom: 4rem;
+  text-align: center;
+  font-weight: 1000;
+  font-size: 5rem;
+}
+
+.price-para {
+  padding: 0 7rem;
+}
+
+.price-format {
+  padding: 0.5rem 1rem;
+  margin: 2.5rem 0.5rem;
+  background-color: rgb(233, 235, 241);
+}
+
+.plan-para {
+  margin: 0;
+}
+
+.points-sec {
+  margin: 8rem 0 0;
+}
+
+@media only screen and (max-width: 600px) {
+  .Pricing-section {
+    padding: 0 3rem 3rem;
+  }
+  .price-para {
+    padding: 0 1rem;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .Pricing-section {
+    padding: 0 6rem 3.5rem;
+  }
+  .price-para {
+    padding: 0 4rem;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .Pricing-section {
+    padding: 0 14rem 7rem;
+  }
+  .price-para {
+    padding: 0 3rem;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .Pricing-section {
+    padding: 0 30rem 10rem;
+  }
+  .price-para {
+    padding: 0 7rem;
+  }
+}/*# sourceMappingURL=Pricing.css.map */

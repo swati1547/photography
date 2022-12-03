@@ -1,0 +1,32 @@
+.about-background{
+    background-image: url("../images/footer_img.jpeg");
+    height: 32rem;
+    object-fit: fill;
+    background-color: #cccccc;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.main-image{
+    position: absolute;
+    top : 74%;
+    right: 12%;
+}
+
+.about-me{
+    margin : 0 65rem 0 0rem;
+}
+
+.about-block{
+    margin: 9rem 14rem;
+    padding: 1rem;
+    display: flex;
+}
+
+.about-headings{
+    text-transform: uppercase;
+    letter-spacing : .7rem;
+    margin-bottom: 4rem;
+}

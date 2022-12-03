@@ -1,0 +1,59 @@
+.section-about {
+  background-color: #f7f7f7;
+}
+
+.front-head {
+  font-family: "Noto Serif Khojki", serif;
+}
+
+.back-head {
+  font-family: "Caveat", cursive;
+  margin: 0 0 -3.2rem;
+  font-size: 5.6rem;
+  color: rgba(195, 7, 63, 0.5333333333);
+}
+
+.about__text-sec {
+  margin-bottom: 1rem;
+}
+
+.white-btn {
+  background-color: rgb(230, 230, 230);
+  border: 0;
+  color: rgb(84, 84, 84);
+  padding: 0.6rem 2rem;
+  text-align: center;
+  margin-right: 2.5rem;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.6rem;
+  transition: all 0.3s;
+}
+.white-btn:hover {
+  color: rgb(84, 84, 84);
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
+  transform: translateY(-0.2rem);
+  text-decoration: none;
+}
+
+.text-btn {
+  cursor: pointer;
+  font-size: 1.6rem;
+  text-decoration: none;
+  display: inline-block;
+  border-bottom: 1px solid #C3073F;
+  padding: 0.3rem 0.8rem;
+  transition: all 0.3s;
+  color: #C3073F;
+}
+.text-btn:hover {
+  color: white;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
+  transform: translateY(-0.2rem);
+  color: #C3073F;
+  text-decoration: none;
+}
+
+.about-img {
+  width: 95%;
+}/*# sourceMappingURL=About.css.map */

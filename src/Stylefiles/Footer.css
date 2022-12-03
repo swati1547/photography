@@ -1,0 +1,169 @@
+.footer {
+  background-image: url("../images/footer_img.jpeg");
+  height: 29rem;
+  -o-object-fit: fill;
+     object-fit: fill;
+  background-color: #cccccc;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  border-top: solid 0.4rem #c3073f;
+}
+@media (max-width: 56.25em) {
+  .footer {
+    height: 30rem;
+  }
+}
+@media (max-width: 37.5em) {
+  .footer {
+    height: 39rem;
+  }
+}
+
+.over-lay {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.94);
+  height: 100%;
+  width: 100%;
+  color: rgba(220, 220, 220, 0.916);
+  text-align: center;
+  padding: 1rem;
+}
+
+.footer-rows {
+  padding: 0.5rem 11rem;
+}
+@media (max-width: 75em) {
+  .footer-rows {
+    padding: 0.5rem 6rem;
+  }
+}
+@media (max-width: 56.25em) {
+  .footer-rows {
+    padding: 0.5rem 1rem;
+  }
+}
+@media (max-width: 37.5em) {
+  .footer-rows {
+    padding: 0rem 0rem;
+  }
+}
+
+.f-columns {
+  padding-top: 2rem;
+}
+@media (max-width: 37.5em) {
+  .f-columns {
+    padding: 0;
+  }
+}
+
+@media (max-width: 37.5em) {
+  .columns {
+    width: 50%;
+  }
+}
+
+.footer_list {
+  list-style-type: none;
+  font-size: 1.6rem;
+  padding: 0;
+  margin-top: 3.5rem;
+}
+@media (max-width: 37.5em) {
+  .footer_list {
+    margin: 0;
+  }
+}
+
+.list_item {
+  padding: 0.5rem;
+}
+
+.social {
+  padding: 0 1rem;
+  margin: 0;
+}
+@media (max-width: 37.5em) {
+  .social {
+    padding: 0;
+  }
+}
+
+.socialm {
+  list-style-type: none;
+  display: inline-block;
+  padding: 0.3rem 0.8rem;
+  margin: 0.3rem;
+}
+
+.sicon {
+  size: 1rem;
+  color: aliceblue;
+  font-size: 2.8rem;
+  margin: 1rem;
+}
+
+.sicon:hover {
+  color: rgba(195, 7, 63, 0.5333333333);
+}
+
+.footer_social {
+  margin-top: 4%;
+}
+@media (max-width: 37.5em) {
+  .footer_social {
+    margin-top: 1%;
+  }
+}
+
+.footer_head {
+  font-size: 2.8rem;
+  margin-top: 3rem;
+  margin-bottom: 2.2rem;
+}
+@media (max-width: 37.5em) {
+  .footer_head {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 2.4rem;
+  }
+}
+
+.footer_para {
+  font-size: 1.6rem;
+}
+
+.contact_info {
+  text-align: left;
+  padding-left: 4.5%;
+}
+@media (max-width: 75em) {
+  .contact_info {
+    padding-left: 4.5%;
+  }
+}
+@media (max-width: 56.25em) {
+  .contact_info {
+    padding-left: 0.8rem;
+  }
+}
+@media (max-width: 37.5em) {
+  .contact_info {
+    padding-left: 0.8rem;
+  }
+}
+
+.c_icon {
+  color: #c3073f;
+  font-size: 2.2rem;
+  width: 3rem;
+  margin-right: 0 0.6rem 0 0;
+}
+
+.copyright {
+  color: rgba(171, 171, 171, 0.5);
+  font-size: 1.6rem;
+  text-align: center;
+}/*# sourceMappingURL=Footer.css.map */

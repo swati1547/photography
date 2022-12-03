@@ -1,0 +1,63 @@
+@mixin clearfix {
+    &::after{
+        content:"";
+        display: table;
+        clear:both;
+    }
+}
+
+@mixin absCenter{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@mixin respond($breakpoint){
+    @if $breakpoint == phone{
+        @media (max-width: 37.5em) { @content};
+    }
+    @if $breakpoint == tab-port{
+        @media (max-width: 56.25em) { @content};
+    }
+    @if $breakpoint == tab-land{
+        @media (max-width: 75em) { @content};
+    }
+    @if $breakpoint == big-desktop{
+        @media (min-width: 112.5em) { @content};
+    }
+}
+
+
+
+@import './typography.scss';
+@import './utilitise.scss';
+@import './Sections.scss';
+
+@import './Mixin.scss';
+
+@import './Header.scss';
+@import './intro.scss';
+@import './About.scss';
+@import './Services.scss';
+@import './SecCel.scss';
+@import './carousel.scss';
+@import './Gallery.scss';
+@import './Video.scss';
+@import './Testimonial.scss';
+@import './Footer.scss';
+
+@import './Icons.scss';
+
+
+@import './Aboutme.scss';
+@import './Cinematography.scss';
+@import './Couplevideos.scss';
+@import './fashion.scss';
+@import './Gallery-blog.scss';
+@import './m&kids.scss';
+@import './Navbar1.scss';
+@import './prewedding.scss';
+@import './Pricing.scss';
+@import './Videocard.scss';
+@import './wedding.scss';

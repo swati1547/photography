@@ -1,0 +1,14 @@
+.icons-bar{
+    z-index: 2;
+    position: absolute;
+    top: 30vh;
+    right: -40px;
+    position: fixed;
+
+    &__icon{
+        font-size: 3rem;
+        margin: .7rem 0;
+        color: #c3073fc4;
+        font-weight: 1rem;
+    }
+}

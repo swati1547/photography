@@ -1,0 +1,20 @@
+.vcards__card {
+  padding: 1.6rem;
+}
+
+.c-card {
+  border: 0;
+}
+.c-card__video {
+  width: 56.4rem;
+  height: 32.5rem;
+}
+.c-card__body {
+  padding: 0;
+}
+.c-card__title {
+  font-size: 1.5rem;
+}
+.c-card__text {
+  font-size: 1.8rem;
+}/*# sourceMappingURL=Videocard.css.map */

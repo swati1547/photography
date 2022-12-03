@@ -1,0 +1,14 @@
+.cinema__card {
+  display: flex;
+  margin: 5rem 15rem;
+  padding: 0.2rem;
+}
+
+.cinema__card-body {
+  padding: 0 6rem;
+}
+
+.cinema__video {
+  width: 162rem;
+  height: 33rem;
+}/*# sourceMappingURL=Cinematography.css.map */

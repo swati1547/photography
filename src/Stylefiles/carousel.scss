@@ -1,0 +1,63 @@
+@import './Mixin.scss';
+
+.carousel-section{
+    height: 87.5vh;
+    // width: 99%;
+}
+
+// image div
+.carousel__image{
+    height: 87.5vh;
+    width: 100%;
+    // image inside div
+    &__img{
+        width: 100%;
+        height:100%;
+    }
+}
+// image div ends
+
+
+// carousel controls & indicator
+.carousel-control-prev-icon{
+    height: 3rem;
+    width: 3rem;
+}
+.carousel-control-prev{
+    @include respond(phone){
+        width: 6rem;
+    }
+}
+.carousel-control-next-icon{
+    height: 3rem;
+    width: 3rem;
+}
+.carousel-control-next{
+    @include respond(phone){
+        width: 6rem;
+    }
+}
+// .carousel-indicators{
+//     width: 100%;
+//     margin: 0 30rem 2rem;
+// }
+// ends carousel controls & indicator
+
+
+// carousel caption
+// .carousel-caption{
+//     position: absolute;
+//     font-size: 1.9rem;
+//   font-weight: 400;
+//   font-family: 'Lato', sans-serif;
+//   line-height: 1.7;
+//     top : 0;
+// }
+// caption ends
+
+.carousel-text{
+    font-size: 1.9rem;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+    line-height: 1.7;
+}

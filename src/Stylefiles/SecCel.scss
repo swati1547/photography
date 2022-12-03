@@ -1,0 +1,41 @@
+@import './Mixin.scss';
+
+.cel-div{
+    padding: 0 1rem;
+    margin: 0 0 3rem;
+    width: 12rem;
+
+    @include respond(tab-port){
+        margin-bottom: 5rem;
+    }
+}
+
+.cel-card{
+    margin: 0rem;
+    border-top: solid .4rem #C3073F;
+    border-radius: .7rem;
+
+    &__head{
+        margin: .5rem;
+    }
+
+    &__para{
+        height: 10rem;
+        font-size: 1.6rem;
+        line-height: 2rem;
+    }
+
+    &__paragraph{
+        text-align: justify;
+    }
+
+    &__img-sec{
+        height: 42rem;
+        text-align: center;
+    }
+
+    &__img{
+        height: 100%;
+        width: 100%;
+    }
+}

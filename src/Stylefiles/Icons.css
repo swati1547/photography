@@ -1,0 +1,13 @@
+.icons-bar {
+  z-index: 2;
+  position: absolute;
+  top: 30vh;
+  right: -40px;
+  position: fixed;
+}
+.icons-bar__icon {
+  font-size: 3rem;
+  margin: 0.7rem 0;
+  color: rgba(195, 7, 63, 0.768627451);
+  font-weight: 1rem;
+}/*# sourceMappingURL=Icons.css.map */

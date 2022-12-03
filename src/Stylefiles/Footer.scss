@@ -1,0 +1,222 @@
+@import './Mixin.scss';
+
+.footer{
+    background-image: url("../images/footer_img.jpeg");
+    height: 29rem;
+    object-fit: fill;
+    background-color: #cccccc;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    border-top: solid .4rem #c3073f;
+
+    @include respond(tab-port) {
+        height: 30rem;
+    }
+
+    @include respond(phone) {
+            height: 39rem;
+    }
+}
+
+.over-lay{
+    position: absolute;
+    background-color: rgba(0, 0, 0, .94);
+    height: 100%;
+    width: 100%;
+    color: rgba(220, 220, 220, 0.916);
+    text-align: center;  
+    padding: 1rem;
+}
+
+.footer-rows{
+    padding: .5rem 11rem;
+
+    @include respond(tab-land){
+        padding: .5rem 6rem;
+    }
+
+    @include respond(tab-port){
+        padding: .5rem 1rem;
+    }
+
+    @include respond(phone){
+        padding: 0rem 0rem;
+    }
+}
+
+.f-columns{
+    padding-top: 2rem;
+
+    @include respond(phone){
+        padding: 0;
+    }
+}
+
+.columns{
+    @include respond(phone){
+        width: 50%;
+    }
+}
+
+.footer_list{
+    list-style-type: none;
+    font-size: 1.6rem;
+    padding: 0;
+    margin-top: 3.5rem;
+
+    @include respond(phone){
+        margin: 0;
+    }
+}
+
+.list_item{
+    padding: .5rem;
+}
+
+.social{
+    padding :0 1rem;
+    margin: 0;
+
+    @include respond(phone){
+        padding: 0;
+    }
+}
+
+.socialm{
+    list-style-type: none;
+    display: inline-block;
+    padding: .3rem .8rem;
+    margin: .3rem;
+}
+
+.sicon{
+    size: 1rem;
+    color: aliceblue;
+    font-size: 2.8rem; 
+    margin: 1rem;
+}
+
+.sicon:hover{
+    color: #c3073f88;
+}
+
+.footer_social{
+    margin-top: 4%;
+
+    @include respond(phone){
+        margin-top: 1%;
+    }
+}
+
+.footer_head{
+    font-size: 2.8rem;
+    margin-top: 3rem;
+    margin-bottom: 2.2rem;
+
+    @include respond(phone){
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        font-size: 2.4rem;
+    }
+}
+
+.footer_para{
+    font-size: 1.6rem;
+}
+
+.contact_info{
+    text-align: left;
+    padding-left: 4.5%;
+
+    @include respond(tab-land){
+        padding-left: 4.5%;
+    }
+
+    @include respond(tab-port){
+        padding-left: .8rem;
+    }
+
+    @include respond(phone){
+        padding-left: .8rem;
+    }
+}
+
+.c_icon{
+    color: #c3073f;
+    font-size: 2.2rem;
+    width: 3rem;
+    margin-right: 0 .6rem 0 0;
+}
+
+.copyright{
+    color: rgba(171, 171, 171, 0.5);
+    font-size: 1.6rem;
+    text-align: center;
+}
+
+// @media only screen and (max-width: 600px){
+//     .footer-rows{
+//         padding: .5rem 1rem;
+//     }
+//     .f-columns{
+//         padding:0;
+//     }
+//     .footer_list{
+//         margin:0;
+//         padding-right: 3rem;
+//     }
+//     .footer_head{
+//         margin-top: 3.6rem;
+//         font-size: 2.6rem;
+//         margin-bottom: 1rem;
+//     }
+//     .footer{
+//         height: 36.5rem;
+//     }
+//     .footer_social{
+//         margin-top: 9%;
+//     }
+// }
+
+// @media only screen and (min-width: 768px){
+//     .footer{
+//         height: 29rem;
+//     }
+//     .footer-rows{
+//         padding: .5rem 1rem;
+//     }
+//     .columns{
+//         padding: 0;
+//     }
+//     .socialm{
+//         padding: .3rem .8rem;
+//         margin: 0;
+//     }
+//     .social{
+//         padding : 3rem 0 0;
+//         margin: 0;
+//     }
+//     .contact_info{
+//         padding-left: 2%;
+//     }
+//     .footer_list{
+//         margin-top: 6rem;
+//     }
+//     .footer_head{
+//         font-size: 3rem;
+//     }
+// }
+
+// @media only screen and (min-width: 992px){
+//     .footer{
+//         height: 31rem;
+//     }
+// }
+
+// @media only screen and (min-width: 1200px){
+//     .footer{
+//         height: 29rem;
+//     }
+// }

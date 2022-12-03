@@ -1,0 +1,35 @@
+.cel-div {
+  padding: 0 1rem;
+  margin: 0 0 3rem;
+  width: 12rem;
+}
+@media (max-width: 56.25em) {
+  .cel-div {
+    margin-bottom: 5rem;
+  }
+}
+
+.cel-card {
+  margin: 0rem;
+  border-top: solid 0.4rem #C3073F;
+  border-radius: 0.7rem;
+}
+.cel-card__head {
+  margin: 0.5rem;
+}
+.cel-card__para {
+  height: 10rem;
+  font-size: 1.6rem;
+  line-height: 2rem;
+}
+.cel-card__paragraph {
+  text-align: justify;
+}
+.cel-card__img-sec {
+  height: 42rem;
+  text-align: center;
+}
+.cel-card__img {
+  height: 100%;
+  width: 100%;
+}/*# sourceMappingURL=SecCel.css.map */

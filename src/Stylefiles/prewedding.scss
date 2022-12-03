@@ -1,0 +1,51 @@
+.pre-wedding-sec{
+    margin: 3rem 20rem 15rem 20rem;
+}
+
+.p-pic-ver{
+    height: 50rem;
+    cursor: pointer;
+}
+
+/* .image{
+    cursor: pointer;
+} */
+
+// .modal-dialog{
+//     align-items: center;
+//     justify-content: center;
+// }
+
+.modal{
+    transition:all .4s;
+}
+
+@media only screen and (max-width: 600px){
+    .pre-wedding-sec{
+        margin: 3rem 4rem 15rem;
+    }
+}
+
+@media only screen and (min-width: 600px){
+    .pre-wedding-sec{
+        margin: 3rem 7rem 15rem;
+    }
+}
+
+@media only screen and (min-width: 768px){
+    .pre-wedding-sec{
+        margin: 3rem 12rem 15rem;
+    }
+}
+
+@media only screen and (min-width: 992px){
+    .pre-wedding-sec{
+        margin: 3rem 12rem 15rem;
+    }
+}
+
+@media only screen and (min-width: 1200px){
+    .pre-wedding-sec{
+        margin: 3rem 20rem 15rem 20rem;
+    }
+}

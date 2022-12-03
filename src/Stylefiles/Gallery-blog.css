@@ -1,0 +1,25 @@
+.sub-navbar {
+  text-align: center;
+  background-color: #e0e0e0;
+  box-shadow: 0 5px 4px -2px rgba(0, 0, 0, 0.2);
+  padding: 0;
+  border: 0;
+}
+
+.sub-nav-component {
+  text-decoration: none;
+  color: rgb(117, 117, 117);
+  padding: 1.2rem;
+  margin: 0;
+  font-size: 1.8rem;
+}
+.sub-nav-component:hover {
+  color: #C3073F;
+  text-decoration: none;
+}
+
+nav a.active {
+  text-decoration: none;
+  color: #C3073F;
+  border-bottom: solid 2.5px #C3073F;
+}/*# sourceMappingURL=Gallery-blog.css.map */

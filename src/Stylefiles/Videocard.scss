@@ -1,0 +1,24 @@
+.vcards__card{
+    padding: 1.6rem;
+}
+
+.c-card{
+    border: 0;
+
+    &__video{
+        width: 56.4rem;
+        height: 32.5rem;
+    }
+
+    &__body{
+        padding: 0;
+    }
+
+    &__title{
+        font-size: 1.5rem;
+    }
+
+    &__text{
+        font-size: 1.8rem;
+    }
+}
