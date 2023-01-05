@@ -3,35 +3,67 @@
 .cel-div{
     padding: 0 1rem;
     margin: 0 0 3rem;
-    width: 12rem;
+    width: 33rem;
+    // width: 37.8rem;
 
     @include respond(tab-port){
         margin-bottom: 5rem;
     }
+
+    @include respond(phone){
+        width: 26rem;
+        margin-bottom: 2rem;
+    }
 }
 
+.cel-block{
+    display: flex;
+    justify-content: center;
+}
+.cel-cards{
+    text-align: center;
+}
 .cel-card{
     margin: 0rem;
-    border-top: solid .4rem #C3073F;
+    border-top: solid .3rem #C3073F;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 0;
     border-radius: .7rem;
 
-    &__head{
-        margin: .5rem;
-    }
-
     &__para{
-        height: 10rem;
+        height: 13rem;
         font-size: 1.6rem;
         line-height: 2rem;
+        padding: 2.5rem 0 0;
+
+        @include respond(tab-port){
+            padding: 1.5rem 0 0;
+        }
+
+        @include respond(phone){
+            padding-top: 0.8rem;
+        }
     }
 
     &__paragraph{
         text-align: justify;
+        font-size: 1.6rem;
     }
 
     &__img-sec{
-        height: 42rem;
+        height: 47rem;
+        width: 31rem;
         text-align: center;
+
+        @include respond(tab-port){
+            height: 41rem;
+        }
+
+        @include respond(phone){
+            width: 24rem;
+            height: 36rem;
+        }
     }
 
     &__img{

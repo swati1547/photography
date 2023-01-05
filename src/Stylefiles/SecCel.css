@@ -1,33 +1,72 @@
 .cel-div {
   padding: 0 1rem;
   margin: 0 0 3rem;
-  width: 12rem;
+  width: 33rem;
 }
 @media (max-width: 56.25em) {
   .cel-div {
     margin-bottom: 5rem;
   }
 }
+@media (max-width: 37.5em) {
+  .cel-div {
+    width: 26rem;
+    margin-bottom: 2rem;
+  }
+}
+
+.cel-block {
+  display: flex;
+  justify-content: center;
+}
+
+.cel-cards {
+  text-align: center;
+}
 
 .cel-card {
   margin: 0rem;
-  border-top: solid 0.4rem #C3073F;
+  border-top: solid 0.3rem #C3073F;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 0;
   border-radius: 0.7rem;
 }
-.cel-card__head {
-  margin: 0.5rem;
-}
 .cel-card__para {
-  height: 10rem;
+  height: 13rem;
   font-size: 1.6rem;
   line-height: 2rem;
+  padding: 2.5rem 0 0;
+}
+@media (max-width: 56.25em) {
+  .cel-card__para {
+    padding: 1.5rem 0 0;
+  }
+}
+@media (max-width: 37.5em) {
+  .cel-card__para {
+    padding-top: 0.8rem;
+  }
 }
 .cel-card__paragraph {
   text-align: justify;
+  font-size: 1.6rem;
 }
 .cel-card__img-sec {
-  height: 42rem;
+  height: 47rem;
+  width: 31rem;
   text-align: center;
+}
+@media (max-width: 56.25em) {
+  .cel-card__img-sec {
+    height: 41rem;
+  }
+}
+@media (max-width: 37.5em) {
+  .cel-card__img-sec {
+    width: 24rem;
+    height: 36rem;
+  }
 }
 .cel-card__img {
   height: 100%;

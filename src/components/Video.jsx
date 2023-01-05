@@ -1,9 +1,7 @@
 import React from 'react';
-// import "../Stylefiles/Video.css";
-// import Ratio from 'react-bootstrap/Ratio';
-import video from "../images/video.mp4"
-import pic1 from '../images/couple2.jpg'
-import pic2 from '../images/couple3.jpg'
+// import video from "../images/video.mp4"
+import pic1 from '../images/pre-wedding/prew-dp.jpg'
+import pic2 from '../images/celebrity/cinema-dp.jpg'
 import backvideo from '../images/back-video.mp4'
 import { Link } from 'react-router-dom';
 
@@ -20,6 +18,7 @@ function Video(){
                 <h2 className='heading_secondary back-head'>videography</h2>
                 <h2 className='heading_secondary front-head'>filming</h2>
             </div>
+            <div className='video-sec-block'>
             <div className='row'>
                 <div className='v-graphy'>
                     <figure className='v-graphy__shape'>
@@ -49,7 +48,7 @@ function Video(){
                     </div>
                 </div>
             </div>
-
+            </div>
             <div className='u-center-text u-margin-top-huge'>
             <p>For all films</p>
                 <button className='button'>

@@ -1,6 +1,4 @@
 import React from 'react';
-// import "../Stylefiles/Services.css";
-import { FaIcons } from "react-icons/fa";
 import {BsCamera, BsCameraVideo, BsCameraReels} from "react-icons/bs"
 import {BiPhotoAlbum} from "react-icons/bi"
 
@@ -17,9 +15,8 @@ function Services(){
                             photography
                         </h4>
                         <p className='service-box__text'>
-                            Photography for all type of events as maternity, babyshower, baby shoot, pre-wedding,
-                            wedding, post wedding, fashion shoot, portfoilo shoot, celebrity shoot, outdoor shoot,
-                            indoor shoot, etc.
+                            Photography for all type of events. Single photographer or team of professional 
+                            photographers available as need or order. 
                         </p>
                     </div> 
                 </div>
@@ -33,7 +30,8 @@ function Services(){
                             videography
                         </h4>
                         <p className='service-box__text'>
-                            "This card has supporting text below as a natural lead-in to additional content."
+                            Doing videography for couple shoot, traditional videos and for wedding. 
+                            with well equipments and drone.
                         </p>
                     </div> 
                 </div>
@@ -47,7 +45,7 @@ function Services(){
                             cinematography
                         </h4>
                         <p className='service-box__text'>
-                            "This card has supporting text below as a natural lead-in to additional content."
+                            we have done cinematography 
                         </p>
                     </div> 
                 </div>
@@ -61,7 +59,8 @@ function Services(){
                             album
                         </h4>
                         <p className='service-box__text'>
-                            "This card has supporting text below as a natural lead-in to additional content."
+                            Album service is also available with different sizes of album, page quantity and 
+                            depending on type of shoot. 
                         </p>
                     </div> 
                 </div>

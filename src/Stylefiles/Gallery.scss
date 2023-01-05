@@ -33,12 +33,14 @@
 }
 
 .image{
-    transition: all .9s ease .2s;
-    padding: .5rem;
+    transition: all .5s ease .1s;
+    // padding: .5rem;
 }
 
 .image:hover{
     transform: scale(0.9);
+    background-color: black;
+    opacity: .4;
 }
 
 .pic-ver-1:hover{

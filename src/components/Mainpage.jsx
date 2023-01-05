@@ -5,37 +5,30 @@ import Header from "./Header";
 import Services from "./Services";
 import SecCel from './secelebrity'
 import About from "./About.jsx";
-import Gallery from "./Gallery.jsx";
-import Pricing from "./Pricing";
 import Testimonial from "./Testimonial";
 import Footer from './Footer';
 import Video from './Video';
-import Responsivegallery from './Responsivegallery'
-import Piccarousel from './carousel'
-import Gallery2 from './gallery2'
-import Libme from './Lib&me'
+// import Piccarousel from './carousel'
 import Icons from './Icons'
-import ImagesList from './ImageList.js'
+// import Sharebtn from './sharebtn';
+// import GoTOTop from './gototop';
 
 
 function Mainpage(){
     return(
         <div>
+            {/* {Sharebtn()} */}
+            {/* {GoTOTop()} */}
             {Navbar1()}
             {Header()}
             {Icons()}
             {About()}
             {Services()}
             {SecCel()}
-            {Piccarousel()}
-            {Gallery()}
+            {/* {Piccarousel()} */}
             {Video()}
             {Testimonial()}
             {Footer()}
-            {/* {Responsivegallery()} */}
-            {Gallery2()}
-            {Libme()}
-            {ImagesList()}
             
         </div>
 )

@@ -1,13 +1,42 @@
 .vcards__card {
-  padding: 1.6rem;
+  padding: 1.8rem;
+  justify-content: center;
+  display: flex;
+}
+@media (max-width: 56.25em) {
+  .vcards__card {
+    padding: 2.6rem;
+  }
+}
+@media (max-width: 37.5em) {
+  .vcards__card {
+    padding: 1.8rem 1rem;
+  }
 }
 
 .c-card {
   border: 0;
+  width: 49rem;
+  height: 40.1rem;
 }
-.c-card__video {
-  width: 56.4rem;
-  height: 32.5rem;
+@media (max-width: 56.25em) {
+  .c-card {
+    width: 53rem;
+  }
+}
+@media (max-width: 37.5em) {
+  .c-card {
+    height: 28rem;
+    width: 41rem;
+  }
+}
+.c-card__videosection {
+  width: 100%;
+  height: 30rem;
+}
+.c-card__videosection__video {
+  height: 100%;
+  width: 100%;
 }
 .c-card__body {
   padding: 0;
@@ -16,5 +45,6 @@
   font-size: 1.5rem;
 }
 .c-card__text {
-  font-size: 1.8rem;
+  font-size: 1.6rem;
+  line-height: 100%;
 }/*# sourceMappingURL=Videocard.css.map */

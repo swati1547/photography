@@ -1,5 +1,4 @@
 import React from 'react';
-// import "../Stylefiles/Footer.css"
 import { BsInstagram, BsFacebook } from "react-icons/bs";
 import { FaTwitter } from "react-icons/fa";
 import { FiMail } from "react-icons/fi";

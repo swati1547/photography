@@ -2,19 +2,34 @@
 
 .section-videography{
     position: relative;
-    padding: 8.5rem 21rem 10rem;
+    padding: 8.5rem 0 10rem;
     background-color: rgba(255, 255, 255, 0);
 
     @include respond(tab-land){
-        padding: 8.5rem 16rem 10rem;
+        padding: 8.5rem 0 10rem;
     }
 
     @include respond(tab-port){
-        padding: 8.5rem 15rem 10rem;
+        padding: 8.5rem 0 10rem;
     }
 
     @include respond(phone){
-        padding: 7rem 5.5rem 6rem;
+        padding: 7rem 0 6rem;
+    }
+}
+.video-sec-block{
+    padding: 0 21rem;
+
+    @include respond(tab-land){
+        padding: 0 16rem;
+    }
+
+    @include respond(tab-port){
+        padding: 0 15rem;
+    }
+
+    @include respond(phone){
+        padding: 0 5.5rem;
     }
 }
 

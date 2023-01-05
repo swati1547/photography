@@ -1,13 +1,67 @@
+@import './Mixin.scss';
+
+.cinema{
+    padding: 6rem 17rem;
+
+    @include respond(tab-land){
+        padding: 6rem 10rem;
+    }
+
+    @include respond(phone){
+        padding: 3rem 1rem;
+    }
+
+    &__heading{
+        margin: 0 0 2rem;
+
+        @include respond(tab-port){
+            margin: 1rem 0;
+        }
+    }
+}
 .cinema__card{
     display: flex;
-    margin: 5rem 15rem;
     padding: .2rem;
+
+    @include respond(tab-land){
+        margin: 0;
+    }
 }
 
 .cinema__card-body{
-        padding: 0 6rem;
+        padding: 0rem 6rem;
+        text-align: center;
+        font-size: 1.6rem;
+
+        @include respond(tab-land){
+            padding: 2rem 4rem;
+        }
+
+        @include respond(tab-port){
+            padding: 1rem 0rem;
+        }
+
+        @include respond(phone){
+            margin: 1rem;
+        }
 }
 .cinema__video{
-    width: 162rem;
-    height: 33rem;
+    height: 31rem;
+
+    @include respond(phone){
+        height: 25rem;
+    }
+}
+
+.hr{
+    border: 1px solid grey;
+    margin: 6rem 5rem;
+
+    @include respond(tab-port){
+        margin: 1rem 10rem;
+    }
+
+    @include respond(phone){
+        margin: 0rem 5rem;
+    }
 }

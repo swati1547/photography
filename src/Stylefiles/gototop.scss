@@ -1,0 +1,68 @@
+@import './Mixin.scss';
+
+.top-btn{
+    position: fixed;
+    bottom: 8rem;
+    right: 3rem;
+    z-index: 2;
+
+    @include respond(tab-land){
+        bottom: 6rem;
+    }
+
+    @include respond(tab-port){
+        bottom: 5rem;
+        right: 2rem;
+    }
+
+    @include respond(phone){
+        bottom: 2.2rem;
+        right: 3rem;
+    }
+}
+
+.top_icon{
+    font-size: 4.5rem;
+    color: #1A1A1D;
+
+    @include respond(phone){
+        font-size: 3.7rem;
+    }
+}
+
+.share-btn{
+    position: fixed;
+    bottom: 15.5rem;
+    right: 3.7rem;
+    z-index: 2;
+
+    @include respond(tab-land){
+        bottom: 13.5rem;
+    }
+
+    @include respond(tab-port){
+        bottom: 12.5rem;
+        right: 2rem;
+    }
+
+    @include respond(phone){
+        bottom: 8.1rem;
+        right: 3.2rem;
+    }
+}
+
+.share-icon{
+    font-size: 3.5rem;
+    color: #1A1A1D;
+
+    @include respond(phone){
+        font-size: 2.7rem;
+    }
+}
+
+.copied-alert{
+    color: #1A1A1D;
+    position: fixed;
+    bottom: 17rem;
+    right: 2.5rem;
+}

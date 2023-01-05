@@ -1,7 +1,5 @@
 .nav{
     display: flex;
-    justify-content: space-around;
-    align-items: center;
     background: #1A1A1D; 
     top: 0;
     width: 100%;
@@ -11,17 +9,13 @@
     border-bottom: 2.5px solid #C3073F;
 }
 
-// .logo1{
-//     color: white;
-//     text-transform: uppercase;
-//     width: 50px;
-//     height: auto;
-//     z-index: 5;
-// }
-// .logodiv{
-//     height: 5rem;
-//     width: 5rem;
-// }
+.logo1{
+    text-align: center;
+}
+
+.nav_bar{
+    text-align: center;
+}
 
 .home-page{
     display: inline-block;
@@ -42,7 +36,7 @@
 
 .nav-component{
     display: inline-block;
-    color: #4E4E50;
+    color: #787878;
     text-decoration: none;
     padding: 2rem 1.2rem;
 
@@ -86,6 +80,20 @@
     text-decoration: none;
 }
 
-@media only screen and (min-width: 1200px){
-    
+@media only screen and (max-width: 360px){
+    .nav-component{
+        padding: 1rem 1rem;
+    }
+
+    .nav{
+        padding: 0%;
+    }
+
+    .nav-column{
+        padding: 0;
+    }
+
+    .home-page{
+        padding: 1rem 1rem;
+    }
 }

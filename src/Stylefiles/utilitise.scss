@@ -1,9 +1,24 @@
+@import './Mixin.scss';
+
 .u-center-text{text-align: center;}
 
 .u-margin-top-small{margin-top: 1.2rem;}
-.u-margin-top-huge{margin-top: 3rem;}
+.u-margin-top-huge{
+    margin-top: 3rem;
+
+    @include respond(phone){
+        margin-top: 1.5rem;
+    }
+}
 
 .u-margin-bottom-small{margin-bottom: 2rem;}
 .u-margin-bottom-medium{margin-bottom: 4rem;}
-.u-margin-bottom-large{margin-bottom: 7rem;}
+
+.u-margin-bottom-large{
+    margin-bottom: 7rem;
+
+    @include respond(phone){
+        margin-bottom: 5rem;
+    }
+}
 

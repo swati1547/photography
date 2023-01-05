@@ -1,21 +1,40 @@
 .section-videography {
   position: relative;
-  padding: 8.5rem 21rem 10rem;
+  padding: 8.5rem 0 10rem;
   background-color: rgba(255, 255, 255, 0);
 }
 @media (max-width: 75em) {
   .section-videography {
-    padding: 8.5rem 16rem 10rem;
+    padding: 8.5rem 0 10rem;
   }
 }
 @media (max-width: 56.25em) {
   .section-videography {
-    padding: 8.5rem 15rem 10rem;
+    padding: 8.5rem 0 10rem;
   }
 }
 @media (max-width: 37.5em) {
   .section-videography {
-    padding: 7rem 5.5rem 6rem;
+    padding: 7rem 0 6rem;
+  }
+}
+
+.video-sec-block {
+  padding: 0 21rem;
+}
+@media (max-width: 75em) {
+  .video-sec-block {
+    padding: 0 16rem;
+  }
+}
+@media (max-width: 56.25em) {
+  .video-sec-block {
+    padding: 0 15rem;
+  }
+}
+@media (max-width: 37.5em) {
+  .video-sec-block {
+    padding: 0 5.5rem;
   }
 }
 

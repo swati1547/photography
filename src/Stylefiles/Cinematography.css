@@ -1,14 +1,76 @@
+.cinema {
+  padding: 6rem 17rem;
+}
+@media (max-width: 75em) {
+  .cinema {
+    padding: 6rem 10rem;
+  }
+}
+@media (max-width: 37.5em) {
+  .cinema {
+    padding: 3rem 1rem;
+  }
+}
+.cinema__heading {
+  margin: 0 0 2rem;
+}
+@media (max-width: 56.25em) {
+  .cinema__heading {
+    margin: 1rem 0;
+  }
+}
+
 .cinema__card {
   display: flex;
-  margin: 5rem 15rem;
   padding: 0.2rem;
+}
+@media (max-width: 75em) {
+  .cinema__card {
+    margin: 0;
+  }
 }
 
 .cinema__card-body {
-  padding: 0 6rem;
+  padding: 0rem 6rem;
+  text-align: center;
+  font-size: 1.6rem;
+}
+@media (max-width: 75em) {
+  .cinema__card-body {
+    padding: 2rem 4rem;
+  }
+}
+@media (max-width: 56.25em) {
+  .cinema__card-body {
+    padding: 1rem 0rem;
+  }
+}
+@media (max-width: 37.5em) {
+  .cinema__card-body {
+    margin: 1rem;
+  }
 }
 
 .cinema__video {
-  width: 162rem;
-  height: 33rem;
+  height: 31rem;
+}
+@media (max-width: 37.5em) {
+  .cinema__video {
+    height: 25rem;
+  }
+}
+
+.hr {
+  border: 1px solid grey;
+  margin: 6rem 5rem;
+}
+@media (max-width: 56.25em) {
+  .hr {
+    margin: 1rem 10rem;
+  }
+}
+@media (max-width: 37.5em) {
+  .hr {
+    margin: 0rem 5rem;
+  }
 }/*# sourceMappingURL=Cinematography.css.map */

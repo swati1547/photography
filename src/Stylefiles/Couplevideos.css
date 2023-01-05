@@ -1,7 +1,29 @@
-.c-video {
-  margin: 7rem 35rem 5rem;
+.c-vid-section {
+  margin: 8rem 5rem 10rem;
+  font-size: 1.6rem;
+}
+@media (max-width: 56.25em) {
+  .c-vid-section {
+    margin: 7rem 0rem 10rem;
+  }
+}
+@media (max-width: 37.5em) {
+  .c-vid-section {
+    margin: 3rem 2rem 4rem;
+  }
 }
 
-.vcards {
-  margin: 5rem 16.2rem;
+.video-containing-div {
+  justify-content: center;
+  padding: 0 5rem 0;
+}
+@media (max-width: 56.25em) {
+  .video-containing-div {
+    padding: 0;
+  }
+}
+@media (max-width: 37.5em) {
+  .video-containing-div {
+    padding: 0;
+  }
 }/*# sourceMappingURL=Couplevideos.css.map */

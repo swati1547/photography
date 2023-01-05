@@ -1,7 +1,5 @@
 .nav {
   display: flex;
-  justify-content: space-around;
-  align-items: center;
   background: #1A1A1D;
   top: 0;
   width: 100%;
@@ -9,6 +7,14 @@
   transition: top 0.3s;
   padding: 0 1.4rem;
   border-bottom: 2.5px solid #C3073F;
+}
+
+.logo1 {
+  text-align: center;
+}
+
+.nav_bar {
+  text-align: center;
 }
 
 .home-page {
@@ -29,7 +35,7 @@
 
 .nav-component {
   display: inline-block;
-  color: #4E4E50;
+  color: #787878;
   text-decoration: none;
   padding: 2rem 1.2rem;
 }
@@ -72,4 +78,19 @@
 .navigations li a.active {
   color: #C3073F;
   text-decoration: none;
+}
+
+@media only screen and (max-width: 360px) {
+  .nav-component {
+    padding: 1rem 1rem;
+  }
+  .nav {
+    padding: 0%;
+  }
+  .nav-column {
+    padding: 0;
+  }
+  .home-page {
+    padding: 1rem 1rem;
+  }
 }/*# sourceMappingURL=Navbar1.css.map */

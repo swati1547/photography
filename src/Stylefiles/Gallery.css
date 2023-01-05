@@ -33,12 +33,13 @@
 }
 
 .image {
-  transition: all 0.9s ease 0.2s;
-  padding: 0.5rem;
+  transition: all 0.5s ease 0.1s;
 }
 
 .image:hover {
   transform: scale(0.9);
+  background-color: black;
+  opacity: 0.4;
 }
 
 .pic-ver-1:hover {

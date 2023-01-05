@@ -1,5 +1,4 @@
 import React from 'react';
-// import "../Stylefiles/Header.css";
 import Intro from './intro.jsx'
 
 function Header(){

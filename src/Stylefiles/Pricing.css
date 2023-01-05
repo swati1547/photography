@@ -1,29 +1,69 @@
 .Pricing-section {
-  margin: 0.5rem;
-  margin-top: 7rem;
-  padding: 0 30rem 10rem;
+  padding: 2rem 26rem;
+  font-size: 1.6rem;
+}
+@media (max-width: 75em) {
+  .Pricing-section {
+    padding: 0 15rem;
+  }
+}
+@media (max-width: 56.25em) {
+  .Pricing-section {
+    padding: 0 5rem;
+  }
+}
+@media (max-width: 37.5em) {
+  .Pricing-section {
+    padding: 0 2rem;
+  }
 }
 
 .price-plans {
   text-align: center;
   margin: 4rem 0;
+  padding: 0 8rem;
+}
+@media (max-width: 37.5em) {
+  .price-plans {
+    margin: 2rem 0;
+    padding: 0;
+  }
 }
 
 .price-head {
-  margin-bottom: 4rem;
-  text-align: center;
-  font-weight: 1000;
-  font-size: 5rem;
+  margin: 5rem 0 7rem;
+}
+@media (max-width: 37.5em) {
+  .price-head {
+    margin: 4rem 0 3rem;
+  }
 }
 
 .price-para {
-  padding: 0 7rem;
+  padding: 0 16.5rem;
+}
+@media (max-width: 75em) {
+  .price-para {
+    padding: 0 14rem;
+  }
+}
+@media (max-width: 37.5em) {
+  .price-para {
+    padding: 0 1rem;
+  }
 }
 
 .price-format {
-  padding: 0.5rem 1rem;
+  padding: 1.5rem 1rem;
   margin: 2.5rem 0.5rem;
-  background-color: rgb(233, 235, 241);
+  background-color: #f2f2fa;
+  border-radius: 0.5rem;
+  border-left: solid 0.36rem #5f6782;
+}
+@media (max-width: 37.5em) {
+  .price-format {
+    margin: 1rem 0.5rem;
+  }
 }
 
 .plan-para {
@@ -32,37 +72,52 @@
 
 .points-sec {
   margin: 8rem 0 0;
+  padding: 0 10rem;
+}
+@media (max-width: 37.5em) {
+  .points-sec {
+    margin: 3rem 0 0;
+    padding: 0;
+  }
 }
 
-@media only screen and (max-width: 600px) {
-  .Pricing-section {
-    padding: 0 3rem 3rem;
-  }
-  .price-para {
-    padding: 0 1rem;
+.tc-button {
+  text-align: center;
+  background-color: #fff1f4;
+  border-radius: 0.5rem;
+  border-left: solid 0.36rem #C3073F;
+  padding: 3rem 3rem;
+}
+.tc-button_div {
+  padding: 0 18rem;
+  margin: 6rem 0;
+}
+@media (max-width: 75em) {
+  .tc-button_div {
+    padding: 0 12rem;
   }
 }
-@media only screen and (min-width: 768px) {
-  .Pricing-section {
-    padding: 0 6rem 3.5rem;
-  }
-  .price-para {
-    padding: 0 4rem;
+@media (max-width: 37.5em) {
+  .tc-button_div {
+    padding: 0;
   }
 }
-@media only screen and (min-width: 992px) {
-  .Pricing-section {
-    padding: 0 14rem 7rem;
-  }
-  .price-para {
-    padding: 0 3rem;
-  }
+.tc-button_btn {
+  border-radius: 0.8rem;
+  background-color: #C3073F;
+  border: none;
+  font-size: 2rem;
+  padding: 0.3rem;
+  width: 12rem;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
 }
-@media only screen and (min-width: 1200px) {
-  .Pricing-section {
-    padding: 0 30rem 10rem;
-  }
-  .price-para {
-    padding: 0 7rem;
-  }
+.tc-button_text {
+  color: #f7f7f7;
+  text-decoration: none;
+}
+.tc-button_text:hover:focus {
+  color: #f7f7f7;
+  text-decoration: none;
 }/*# sourceMappingURL=Pricing.css.map */

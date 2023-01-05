@@ -36,6 +36,8 @@
 
 @import './Mixin.scss';
 
+@import './gototop.scss';
+
 @import './Header.scss';
 @import './intro.scss';
 @import './About.scss';
@@ -43,6 +45,7 @@
 @import './SecCel.scss';
 @import './carousel.scss';
 @import './Gallery.scss';
+@import './photogallery.scss';
 @import './Video.scss';
 @import './Testimonial.scss';
 @import './Footer.scss';
@@ -53,11 +56,11 @@
 @import './Aboutme.scss';
 @import './Cinematography.scss';
 @import './Couplevideos.scss';
-@import './fashion.scss';
+// @import './fashion.scss';
 @import './Gallery-blog.scss';
-@import './m&kids.scss';
+// @import './maternity.scss';
 @import './Navbar1.scss';
-@import './prewedding.scss';
+// @import './prewedding.scss';
 @import './Pricing.scss';
 @import './Videocard.scss';
-@import './wedding.scss';
+@import './Wedding.scss';

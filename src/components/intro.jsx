@@ -1,5 +1,4 @@
 import React from 'react';
-// import "../Stylefiles/intro.css";
 
 function Intro(){
     return(

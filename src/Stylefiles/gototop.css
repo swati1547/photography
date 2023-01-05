@@ -1,0 +1,74 @@
+.top-btn {
+  position: fixed;
+  bottom: 8rem;
+  right: 3rem;
+  z-index: 2;
+}
+@media (max-width: 75em) {
+  .top-btn {
+    bottom: 6rem;
+  }
+}
+@media (max-width: 56.25em) {
+  .top-btn {
+    bottom: 5rem;
+    right: 2rem;
+  }
+}
+@media (max-width: 37.5em) {
+  .top-btn {
+    bottom: 2.2rem;
+    right: 3rem;
+  }
+}
+
+.top_icon {
+  font-size: 4.5rem;
+  color: #1A1A1D;
+}
+@media (max-width: 37.5em) {
+  .top_icon {
+    font-size: 3.7rem;
+  }
+}
+
+.share-btn {
+  position: fixed;
+  bottom: 15.5rem;
+  right: 3.7rem;
+  z-index: 2;
+}
+@media (max-width: 75em) {
+  .share-btn {
+    bottom: 13.5rem;
+  }
+}
+@media (max-width: 56.25em) {
+  .share-btn {
+    bottom: 12.5rem;
+    right: 2rem;
+  }
+}
+@media (max-width: 37.5em) {
+  .share-btn {
+    bottom: 8.1rem;
+    right: 3.2rem;
+  }
+}
+
+.share-icon {
+  font-size: 3.5rem;
+  color: #1A1A1D;
+}
+@media (max-width: 37.5em) {
+  .share-icon {
+    font-size: 2.7rem;
+  }
+}
+
+.copied-alert {
+  color: #1A1A1D;
+  position: fixed;
+  bottom: 17rem;
+  right: 2.5rem;
+}/*# sourceMappingURL=gototop.css.map */

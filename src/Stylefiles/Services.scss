@@ -5,7 +5,7 @@
     background-image: linear-gradient(
     to right bottom,
     rgba(28, 28, 28, 0.6), rgba(0, 0, 0, 0.8)),
-    url("../images/nil1.jpg");
+    url("../images/nil-2.jpg");
     background-size: cover;
     background-position: top center;
     position: relative;
@@ -22,12 +22,17 @@
 .service-box{
     background-color: rgba(white, .8);
     font-size: 1.5rem;
-    padding: 2.5rem;
+    padding: 2.2rem;
     text-align: center;
     border: 3px;
     box-shadow: 0 1.5rem 4rem rgba(black, .15);
     transition: transform .3s;
     margin-bottom: 4rem;
+
+    @include respond(phone){
+        padding: 1rem 2.2rem;
+        margin-bottom: 2rem;
+    }
 
     &__icon{
         font-size: 6rem;

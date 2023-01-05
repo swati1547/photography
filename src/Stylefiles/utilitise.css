@@ -9,6 +9,11 @@
 .u-margin-top-huge {
   margin-top: 3rem;
 }
+@media (max-width: 37.5em) {
+  .u-margin-top-huge {
+    margin-top: 1.5rem;
+  }
+}
 
 .u-margin-bottom-small {
   margin-bottom: 2rem;
@@ -20,4 +25,9 @@
 
 .u-margin-bottom-large {
   margin-bottom: 7rem;
+}
+@media (max-width: 37.5em) {
+  .u-margin-bottom-large {
+    margin-bottom: 5rem;
+  }
 }/*# sourceMappingURL=utilitise.css.map */

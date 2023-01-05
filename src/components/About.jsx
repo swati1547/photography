@@ -1,6 +1,5 @@
 import React from 'react';
-// import "../Stylefiles/About.css";
-import photo from '../images/photo.jpg'
+import aboutpic from '../images/about-pic.jpeg'
 import {NavLink} from "react-router-dom"
 
 function About(){
@@ -10,7 +9,7 @@ function About(){
             <h2 className='heading_secondary u-center-text u-margin-bottom-large back-head'>about</h2>
             <h2 className='heading_secondary u-center-text u-margin-bottom-large front-head'>me</h2>
 
-            <div className='row'>
+            <div className='row about-sec-block'>
 
                 {/* about info section */}
                 <div className='col-lg-6 about__text-sec'>
@@ -20,7 +19,9 @@ function About(){
                         Passionate photographer
                     </h3>
                     <p className='paragraph'>Hello, My name is Nilesh Garje, I’m a wedding photographer based
-                    in Pune Attempting to capture honest & authentic moments in any event. 
+                    in Pune Attempting to capture honest & authentic moments in any event as maternity, babyshower, baby shoot, pre-wedding,
+                        wedding, post wedding, fashion shoot, celebrity shoot, etc. <br/>
+                        Service is available in all maharashtra.
                     </p>
                     {/* first paragraph ends */}
 
@@ -28,9 +29,10 @@ function About(){
                     <h3 className='heading-tertiory u-margin-bottom-small'>
                         model
                     </h3>
-                    <p className='paragraph'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum 
-                    has been the industry's standard dummy text ever since the 1500s, when an unknown printer took 
-                    a galley. 
+                    <p className='paragraph'>
+                    Nil Garje here professional fashion model. 
+                    I have organise 12 events as organiser.
+                    Participanted in 15+ events as model. 
                     </p>
                     {/* second paragraph ends */}
 
@@ -45,7 +47,7 @@ function About(){
 
                 {/* about image section */}
                 <div className='col-lg-6'>
-                    <img className='about-img' src={photo} alt="image"/>
+                    <img className='about-img' src={aboutpic} alt="image"/>
                 </div>
                 {/* about image section ends */}
                 

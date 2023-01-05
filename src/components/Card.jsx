@@ -1,6 +1,4 @@
 import React from 'react';
-// import "../Stylefiles/Card.css";
-import { FaIcons } from "react-icons/fa";
 
 function Card(props){
     return(

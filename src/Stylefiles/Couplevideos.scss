@@ -1,7 +1,27 @@
-.c-video{
-    margin: 7rem 35rem 5rem;
+@import './Mixin.scss';
+
+.c-vid-section{
+    margin: 8rem 5rem 10rem;
+    font-size: 1.6rem;
+
+    @include respond(tab-port){
+        margin: 7rem 0rem 10rem;
+    }
+
+    @include respond(phone){
+        margin: 3rem 2rem 4rem;
+    }
 }
 
-.vcards{
-    margin: 5rem 16.2rem;
+.video-containing-div{
+    justify-content: center;
+    padding: 0 5rem 0;
+
+    @include respond(tab-port){
+        padding: 0;
+    }
+
+    @include respond(phone){
+        padding: 0;
+    }
 }

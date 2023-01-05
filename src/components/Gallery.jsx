@@ -1,5 +1,4 @@
 import React from 'react';
-// import "../Stylefiles/Gallery.css";
 import photo1 from "../images/pic1.jpg"
 import photo2 from "../images/pic2.jpg"
 import photo3 from "../images/pic3.jpg"

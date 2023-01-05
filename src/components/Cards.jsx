@@ -1,7 +1,6 @@
 import React from 'react';
 import Service from "./Card-service.js";
 import Card from "./Card.jsx";
-// import "../Stylefiles/Cards.css";
 
 function createCard(Service){
     return(

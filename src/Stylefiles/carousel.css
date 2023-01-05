@@ -1,41 +1,43 @@
 .carousel-section {
-  height: 87.5vh;
+  height: 60rem;
+}
+@media (max-width: 75em) {
+  .carousel-section {
+    height: 56rem;
+  }
+}
+@media (max-width: 56.25em) {
+  .carousel-section {
+    height: 47rem;
+  }
+}
+@media (max-width: 37.5em) {
+  .carousel-section {
+    height: 22rem;
+  }
 }
 
 .carousel__image {
-  height: 87.5vh;
+  height: 60rem;
   width: 100%;
+  position: absolute;
 }
 .carousel__image__img {
   width: 100%;
   height: 100%;
 }
-
-.carousel-control-prev-icon {
-  height: 3rem;
-  width: 3rem;
-}
-
-@media (max-width: 37.5em) {
-  .carousel-control-prev {
-    width: 6rem;
+@media (max-width: 75em) {
+  .carousel__image {
+    height: 56rem;
   }
 }
-
-.carousel-control-next-icon {
-  height: 3rem;
-  width: 3rem;
-}
-
-@media (max-width: 37.5em) {
-  .carousel-control-next {
-    width: 6rem;
+@media (max-width: 56.25em) {
+  .carousel__image {
+    height: 47rem;
   }
 }
-
-.carousel-text {
-  font-size: 1.9rem;
-  font-weight: 400;
-  font-family: "Lato", sans-serif;
-  line-height: 1.7;
+@media (max-width: 37.5em) {
+  .carousel__image {
+    height: 22rem;
+  }
 }/*# sourceMappingURL=carousel.css.map */

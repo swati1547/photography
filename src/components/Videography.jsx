@@ -1,5 +1,4 @@
 import React from 'react';
-// import '../Stylefiles/Gallery-blog.css'
 import { Link } from 'react-router-dom';
 import { Outlet } from 'react-router-dom';
 import Navbar1 from './Navbar1'

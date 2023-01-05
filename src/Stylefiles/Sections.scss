@@ -13,13 +13,13 @@
     }
 
     @include respond(phone){
-        padding: 8rem 6rem 10rem;
+        padding: 8rem 4rem 10rem;
     }
 }
 
 .section-services{
     margin-top: -5rem;
-    padding: 14rem 20rem 13rem;
+    padding: 14.6rem 20rem 10.6rem;
 
     @include respond(tab-land){
         padding: 13rem 21rem 10rem;
@@ -30,24 +30,24 @@
     }
 
     @include respond(phone){
-        padding: 9rem 7rem 5rem;
+        padding: 5.5rem 7rem 4rem;
     }
 }
 
 .section-celebrity{
-    padding: 25rem 20rem 15rem;
+    padding: 25rem 12rem 15rem;
     margin-top: -20vh;
     
     @include respond(tab-land){
-        padding: 13rem 24rem 10rem;
+        padding: 13rem 1.6rem 10rem;
     }
 
     @include respond(tab-port){
-        padding: 15rem 15rem;
+        padding: 15rem 2rem;
     }
 
     @include respond(phone){
-        padding: 17rem 7rem 5rem;
+        padding: 17rem 0 0;
     }
 }
 

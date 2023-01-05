@@ -1,0 +1,63 @@
+.background {
+  width: 100%;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.96);
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.background__close-btn {
+  position: absolute;
+  top: 2rem;
+  right: 2.5rem;
+  background-color: transparent;
+  border: 0;
+}
+.background__pre-btn {
+  position: absolute;
+  top: 46%;
+  left: 1.3rem;
+  background-color: transparent;
+  border: 0;
+}
+.background__next-btn {
+  position: absolute;
+  top: 46%;
+  right: 1.3rem;
+  background-color: transparent;
+  border: 0;
+}
+.background__icon {
+  color: rgba(146, 146, 146, 0.694);
+  font-size: 3.4rem;
+}
+.background__icon__close {
+  color: rgba(146, 146, 146, 0.694);
+  font-size: 2.8rem;
+}
+
+.gallery-block {
+  padding: 6rem 17rem 10rem;
+}
+@media (max-width: 75em) {
+  .gallery-block {
+    padding: 5rem 11rem 10rem;
+  }
+}
+@media (max-width: 56.25em) {
+  .gallery-block {
+    padding: 3rem 8rem 6rem;
+  }
+}
+@media (max-width: 37.5em) {
+  .gallery-block {
+    padding: 0rem 1rem 4rem;
+  }
+}
+
+.gallery-block__images {
+  cursor: pointer;
+}/*# sourceMappingURL=photogallery.css.map */

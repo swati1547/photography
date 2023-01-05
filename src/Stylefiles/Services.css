@@ -1,5 +1,5 @@
 .section-services {
-  background-image: linear-gradient(to right bottom, rgba(28, 28, 28, 0.6), rgba(0, 0, 0, 0.8)), url("../images/nil1.jpg");
+  background-image: linear-gradient(to right bottom, rgba(28, 28, 28, 0.6), rgba(0, 0, 0, 0.8)), url("../images/nil-2.jpg");
   background-size: cover;
   background-position: top center;
   position: relative;
@@ -13,12 +13,18 @@
 .service-box {
   background-color: rgba(255, 255, 255, 0.8);
   font-size: 1.5rem;
-  padding: 2.5rem;
+  padding: 2.2rem;
   text-align: center;
   border: 3px;
   box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
   transition: transform 0.3s;
   margin-bottom: 4rem;
+}
+@media (max-width: 37.5em) {
+  .service-box {
+    padding: 1rem 2.2rem;
+    margin-bottom: 2rem;
+  }
 }
 .service-box__icon {
   font-size: 6rem;
