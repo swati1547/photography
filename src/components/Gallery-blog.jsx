@@ -5,6 +5,7 @@ import Navbar1 from './Navbar1'
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
+import Footer from './Footer';
 // import GoTOTop from './gototop';
 
 function Galleryblog(){
@@ -35,7 +36,7 @@ function Galleryblog(){
     <Outlet/>
 
         {/* <GoTOTop/> */}
-
+        {Footer()}
         </div>
     )
 }

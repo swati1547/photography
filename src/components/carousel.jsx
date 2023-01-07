@@ -6,7 +6,8 @@ import pic3 from '../images/media/car-3.jpg'
 import pic4 from '../images/media/car-4.jpg'
 import pic5 from '../images/media/car-5.jpg'
 import pic6 from '../images/media/car-6.jpg'
-// import pic4 from '../images/kids/kid-18.jpg'
+import pic7 from '../images/media/car-7.jpeg'
+
 function Piccarousel(){
     return(
 
@@ -21,14 +22,9 @@ function Piccarousel(){
                   src={pic1}
                   alt="First slide"
                 />
-              </div>
-              {/* <Carousel.Caption  className='carouse__text'>
-                <h3>First slide label</h3>
-                <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-              </Carousel.Caption> */}
+                <p className='carousel_text carousel_text__pre_wed'>Pre-wedding photographer</p>
+              </div>  
             </Carousel.Item>
-
-
 
             <Carousel.Item>
               <div className='carousel__image'>
@@ -37,14 +33,9 @@ function Piccarousel(){
                   src={pic2}
                   alt="First slide"
                 />
-              </div>
-              {/* <Carousel.Caption className='carouse__text'>
-                <h3>Second slide label</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-              </Carousel.Caption> */}
+                <p className='carousel_text carousel_text__wed'>Wedding photographer</p>
+                </div>
             </Carousel.Item>
-
-
 
             <Carousel.Item>
               <div className='carousel__image'>
@@ -53,16 +44,9 @@ function Piccarousel(){
                   src={pic3}
                   alt="First slide"
                 />
+                <p className='carousel_text carousel_text__maternity'>Maternity photographer</p>
               </div>
-              {/* <Carousel.Caption className='carouse__text'>
-                <h3>Third slide label</h3>
-                <p>
-                  Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-                </p>
-              </Carousel.Caption> */}
             </Carousel.Item>
-
-
 
             <Carousel.Item>
               <div className='carousel__image'>
@@ -71,13 +55,8 @@ function Piccarousel(){
                   src={pic4}
                   alt="First slide"
                 />
+                <p className='carousel_text carousel_text__kid'>Kids photographer</p>
               </div>
-              {/* <Carousel.Caption className='carouse__text'>
-                <h3>Third slide label</h3>
-                <p>
-                  Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-                </p>
-              </Carousel.Caption> */}
             </Carousel.Item>
 
             <Carousel.Item>
@@ -87,13 +66,8 @@ function Piccarousel(){
                   src={pic5}
                   alt="First slide"
                 />
+                <p className='carousel_text carousel_text__fashion'>Fashion Photographer</p>
               </div>
-              {/* <Carousel.Caption className='carouse__text'>
-                <h3>Third slide label</h3>
-                <p>
-                  Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-                </p>
-              </Carousel.Caption> */}
             </Carousel.Item>
 
             <Carousel.Item>
@@ -103,17 +77,25 @@ function Piccarousel(){
                   src={pic6}
                   alt="First slide"
                 />
+                <p className='carousel_text carousel_text__celebrity'>Celebrity photographer</p>
               </div>
-              {/* <Carousel.Caption className='carouse__text'>
-                <h3>Third slide label</h3>
-                <p>
-                  Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-                </p>
-              </Carousel.Caption> */}
+            </Carousel.Item>
+
+            <Carousel.Item>
+              <div className='carousel__image'>
+                <img
+                  className="d-block w-100 carousel__image__img"
+                  src={pic7}
+                  alt="First slide"
+                />
+                <p className='carousel_text carousel_text__event'>Event photographer</p>
+              </div>
             </Carousel.Item>
 
 
           </Carousel> 
+
+
         </div>
     )
 }

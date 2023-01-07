@@ -1,8 +1,7 @@
 import React from 'react';
-// import video from "../images/video.mp4"
 import pic1 from '../images/pre-wedding/prew-dp.jpg'
 import pic2 from '../images/celebrity/cinema-dp.jpg'
-import backvideo from '../images/back-video.mp4'
+import backvideo from '../images/back_vid.mp4'
 import { Link } from 'react-router-dom';
 
 function Video(){
@@ -15,7 +14,7 @@ function Video(){
             </video>
         </div>
             <div className='u-center-text u-margin-bottom-large video-div'>
-                <h2 className='heading_secondary back-head'>videography</h2>
+                <h2 className='back-head'>Videography</h2>
                 <h2 className='heading_secondary front-head'>filming</h2>
             </div>
             <div className='video-sec-block'>
@@ -26,10 +25,9 @@ function Video(){
                     </figure>
                     <div className='v-graphy__text'>
                         <h3 className='heading-tertiory u-margin-bottom-small'>Couple Shoot</h3>
-                        <p className='v-graphy__para'>More and more loved-up pairs are choosing to have a couples shoot,
-                            whether it’s a pre wedding engagement shoot or just a selection of gorgeous photos
-                            of where you are in your life right now. So it really doesn’t matter if you’re
-                            engaged or not, you can still get those beautiful photos of you two together.
+                        <p className='v-graphy__para'>couple who will marry shortly. The word says prewedding, 
+                        which means before the wedding, so that this shoot can be done before 2 to 3 months of 
+                        marriage. This is just like the music video with the bride and groom as the actor and actress.
                         </p>
                     </div>
                 </div>
@@ -40,10 +38,13 @@ function Video(){
                         <img className='v-graphy__img' src={pic2} alt='couple_image'></img>
                     </figure>
                     <div className='v-graphy__text'>
-                        <h3 className='heading-tertiory u-margin-bottom-small'>asdfghjkl</h3>
-                        <p className='v-graphy__para'>Use generated pseudo elements to make an element maintain the aspect 
-                        ratio of your choosing. Perfect for responsively handling video or slideshow 
-                        embeds based on the width of the parent.These helpers also can be used on any standard HTML child element. Styles are applied 
+                        <h3 className='heading-tertiory u-margin-bottom-small'>Cinematography</h3>
+                        <p className='v-graphy__para'>We capture best cinematic movements Telling a story on 
+                        film isn’t just about recording the action. It’s also about how the images are 
+                        captured, in the film and television world. It involves such techniques as the 
+                        general composition of a scene, the lighting of the set or location, the choice of 
+                        cameras, lenses, filters, and film stock, the camera angle and movements, and the 
+                        integration of any special effects.
                         </p>
                     </div>
                 </div>

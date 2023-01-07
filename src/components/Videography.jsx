@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Outlet } from 'react-router-dom';
+import Footer from './Footer';
 import Navbar1 from './Navbar1'
 
 function Videography(){
@@ -16,6 +17,7 @@ function Videography(){
                     <Outlet/>
                 </div>
             </div>
+            {Footer()}
         </div>
     )
 }

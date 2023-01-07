@@ -6,25 +6,25 @@ const Property=[
     {
         cardvid : "https://www.youtube.com/embed/U_n3VNt2ipA",
         cardhead : "Hanumant & Aishwarya",
-        cardtext : "This card has supporting text below as a natural lead-in to additional content."
+        cardtext : "Hanumant & Aishwarya's pre-wedding shoot at saiban park, Ahemadnagar with different looks."
     },
 
     {
         cardvid : "https://www.youtube.com/embed/j209YdY6f4U",
         cardhead : "Pratik & Prachi",
-        cardtext : "This card has supporting text below as a natural lead-in to additional content. swati-garje"
+        cardtext : "pratik-prachi pew-wedding shoot at Someshwar waterfall, Nashik."
     },
 
     {
         cardvid : "https://www.youtube.com/embed/e6oJmWifJLo",
         cardhead : "Tushar & Netra",
-        cardtext : "This card has supporting text below as a natural lead-in to additional content.t to show that equal height action."
+        cardtext : "Tushar weds Netra, location jalgaon. Beautiful royal and traditional look of groom and bride."
     },
 
     {
         cardvid : "https://www.youtube.com/embed/BiWIh8QQXeM",
         cardhead : "Maharashtrian Couple",
-        cardtext : "This card has supporting text below as a natural lead-in to additional content.ntent than the first to showght action."
+        cardtext : "couple shoot with traditional maharashtrian look."
     }
 ]
 

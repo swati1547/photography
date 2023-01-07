@@ -38,4 +38,25 @@
   padding: 0 7.5rem 0 0;
   -moz-column-count: 2;
        column-count: 2;
+}
+
+nav a.active {
+  text-decoration: none;
+  color: #C3073F;
+  border-bottom: solid 2.5px #C3073F;
+}
+
+.responsive-navbar-nav {
+  margin-right: 2.5rem;
+}
+
+@media only screen and (max-width: 993px) {
+  .sub-nav-component {
+    padding: 0;
+    font-size: 1.6rem;
+    text-align: right;
+  }
+  nav a.active {
+    border-bottom: 0;
+  }
 }/*# sourceMappingURL=Gallery-blog.css.map */

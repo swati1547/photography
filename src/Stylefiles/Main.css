@@ -191,7 +191,7 @@
 @media (max-width: 37.5em) {
   .top-btn {
     bottom: 2.2rem;
-    right: 3rem;
+    right: 1rem;
   }
 }
 
@@ -225,7 +225,7 @@
 @media (max-width: 37.5em) {
   .share-btn {
     bottom: 8.1rem;
-    right: 3.2rem;
+    right: 1.6rem;
   }
 }
 
@@ -248,7 +248,7 @@
 
 .header {
   height: 95vh;
-  background-image: linear-gradient(to right bottom, rgba(50, 50, 50, 0.614), rgba(0, 0, 0, 0)), url("../images/nil2.jpg");
+  background-image: linear-gradient(to right bottom, rgba(50, 50, 50, 0.614), rgba(0, 0, 0, 0)), url("../images/hero-img.jpg");
   background-size: cover;
   background-position: top center;
   position: relative;
@@ -291,6 +291,23 @@
   padding: 0.5rem;
   transform: translate(-50%, -50%);
   text-align: center;
+}
+
+.heading_second-sub {
+  display: block;
+  font-size: 2.1rem;
+  font-weight: 300;
+  letter-spacing: 0.2rem;
+  margin-top: 5rem;
+  text-transform: none;
+  -webkit-animation-name: moveUp;
+          animation-name: moveUp;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
+  -webkit-animation-timing-function: ease-out;
+          animation-timing-function: ease-out;
 }
 
 @-webkit-keyframes moveInLeft {
@@ -340,6 +357,24 @@
   100% {
     opacity: 1;
   }
+}
+@-webkit-keyframes moveUp {
+  0% {
+    opacity: 0;
+    transform: translateY(5rem);
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes moveUp {
+  0% {
+    opacity: 0;
+    transform: translateY(5rem);
+  }
+  100% {
+    opacity: 1;
+  }
 } /*# sourceMappingURL=intro.css.map */
 .section-about {
   background-color: #f7f7f7;
@@ -354,9 +389,9 @@
 }
 
 .back-head {
-  font-family: "Caveat", cursive;
-  margin: 0 0 -3.2rem;
-  font-size: 5.6rem;
+  font-family: "Allura", cursive;
+  margin: 0 0 -4.8rem;
+  font-size: 8rem;
   color: rgba(195, 7, 63, 0.5333333333);
 }
 
@@ -479,10 +514,10 @@
   border-radius: 0.7rem;
 }
 .cel-card__para {
-  height: 13rem;
+  height: 10rem;
   font-size: 1.6rem;
   line-height: 2rem;
-  padding: 2.5rem 0 0;
+  padding: 1.5rem 0 0;
 }
 @media (max-width: 56.25em) {
   .cel-card__para {
@@ -491,6 +526,7 @@
 }
 @media (max-width: 37.5em) {
   .cel-card__para {
+    height: 9.3rem;
     padding-top: 0.8rem;
   }
 }
@@ -541,11 +577,11 @@
 .carousel__image {
   height: 60rem;
   width: 100%;
-  position: absolute;
 }
 .carousel__image__img {
   width: 100%;
   height: 100%;
+  position: relative;
 }
 @media (max-width: 75em) {
   .carousel__image {
@@ -560,6 +596,183 @@
 @media (max-width: 37.5em) {
   .carousel__image {
     height: 22rem;
+  }
+}
+
+.carousel_text {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 2rem;
+  letter-spacing: 0.3rem;
+  border: 1px solid white;
+  display: inline;
+  padding: 0.2rem 2rem;
+  color: white;
+}
+@media (max-width: 56.25em) {
+  .carousel_text {
+    font-size: 1.5rem;
+  }
+}
+@media (max-width: 37.5em) {
+  .carousel_text {
+    font-size: 1.4rem;
+    letter-spacing: 0;
+    padding: 0rem 0.5rem;
+  }
+}
+.carousel_text__pre_wed {
+  position: absolute;
+  top: 3.5rem;
+  right: 10rem;
+}
+@media (max-width: 75em) {
+  .carousel_text__pre_wed {
+    right: 5rem;
+  }
+}
+@media (max-width: 56.25em) {
+  .carousel_text__pre_wed {
+    right: 3rem;
+  }
+}
+@media (max-width: 37.5em) {
+  .carousel_text__pre_wed {
+    position: absolute;
+    top: auto;
+    bottom: 1rem;
+    right: 1rem;
+  }
+}
+.carousel_text__wed {
+  position: absolute;
+  top: 4.5rem;
+  right: 20rem;
+}
+@media (max-width: 75em) {
+  .carousel_text__wed {
+    top: 4.5rem;
+    right: 11rem;
+  }
+}
+@media (max-width: 56.25em) {
+  .carousel_text__wed {
+    top: 3.5rem;
+    right: 4rem;
+  }
+}
+@media (max-width: 37.5em) {
+  .carousel_text__wed {
+    top: 1rem;
+    right: 1rem;
+  }
+}
+.carousel_text__maternity {
+  position: absolute;
+  bottom: 8rem;
+  right: 5rem;
+}
+@media (max-width: 75em) {
+  .carousel_text__maternity {
+    bottom: 7rem;
+    right: 4rem;
+  }
+}
+@media (max-width: 56.25em) {
+  .carousel_text__maternity {
+    bottom: 5rem;
+    right: 3rem;
+  }
+}
+@media (max-width: 37.5em) {
+  .carousel_text__maternity {
+    bottom: 1rem;
+    right: 0.2rem;
+  }
+}
+.carousel_text__kid {
+  position: absolute;
+  bottom: 8rem;
+  left: 36rem;
+}
+@media (max-width: 75em) {
+  .carousel_text__kid {
+    bottom: 8rem;
+    left: 12rem;
+  }
+}
+@media (max-width: 56.25em) {
+  .carousel_text__kid {
+    bottom: 5rem;
+    left: 12rem;
+  }
+}
+@media (max-width: 37.5em) {
+  .carousel_text__kid {
+    bottom: 1.5rem;
+    left: 3rem;
+  }
+}
+.carousel_text__fashion {
+  position: absolute;
+  bottom: 5rem;
+  left: 14rem;
+}
+@media (max-width: 75em) {
+  .carousel_text__fashion {
+    bottom: 5rem;
+    left: 1rem;
+  }
+}
+@media (max-width: 37.5em) {
+  .carousel_text__fashion {
+    bottom: 1rem;
+    left: 0.2rem;
+  }
+}
+.carousel_text__celebrity {
+  position: absolute;
+  bottom: 14rem;
+  left: 28rem;
+}
+@media (max-width: 75em) {
+  .carousel_text__celebrity {
+    bottom: 13rem;
+    left: 9rem;
+  }
+}
+@media (max-width: 56.25em) {
+  .carousel_text__celebrity {
+    bottom: 11rem;
+    left: 5rem;
+  }
+}
+@media (max-width: 37.5em) {
+  .carousel_text__celebrity {
+    bottom: 5rem;
+    left: 2rem;
+  }
+}
+.carousel_text__event {
+  position: absolute;
+  top: 5rem;
+  left: 18rem;
+}
+@media (max-width: 75em) {
+  .carousel_text__event {
+    top: 6rem;
+    left: 8rem;
+  }
+}
+@media (max-width: 56.25em) {
+  .carousel_text__event {
+    top: 3rem;
+    left: 3rem;
+  }
+}
+@media (max-width: 37.5em) {
+  .carousel_text__event {
+    top: 2rem;
+    left: 0.2rem;
   }
 }
 
@@ -775,7 +988,7 @@
   left: 0;
   height: 100%;
   width: 100%;
-  opacity: 0.17;
+  opacity: 0.4;
   overflow: hidden;
   z-index: -1;
 }
@@ -844,10 +1057,15 @@
   margin: 0;
 }
 
-.testimonial-head {
+.testimonial-heading {
   margin: 0;
-  background-color: black;
-  padding: 1.3rem;
+  background-color: #1A1A1D;
+  padding: 2.6rem;
+  border-bottom: solid 0.4rem #c3073f;
+}
+.testimonial-heading__text {
+  color: #f7f7f7;
+  font-family: "Noto Serif Khojki", serif;
 }
 
 .review-carousel-section {
@@ -1098,11 +1316,10 @@
 }
 
 .icons-bar {
-  z-index: 2;
-  position: absolute;
-  top: 30vh;
-  left: 145rem;
   position: fixed;
+  z-index: 2;
+  top: 20vh;
+  right: 0rem;
 }
 .icons-bar__icon {
   font-size: 3rem;
@@ -1230,6 +1447,12 @@
   }
 }
 
+@media (max-width: 37.5em) {
+  .institute-pic {
+    margin: 0 1rem;
+  }
+}
+
 .hr-about {
   border: solid 1px grey;
   margin: 2rem;
@@ -1298,7 +1521,7 @@
 }
 @media (max-width: 37.5em) {
   .cinema__video {
-    height: 25rem;
+    height: 23rem;
   }
 }
 
@@ -1315,6 +1538,11 @@
   .hr {
     margin: 0rem 5rem;
   }
+}
+
+.couplevideos_para {
+  font-size: 1.6rem;
+  margin: 6rem 38rem 0;
 }
 
 .c-vid-section {
@@ -1389,6 +1617,26 @@
        column-count: 2;
 }
 
+nav a.active {
+  text-decoration: none;
+  color: #C3073F;
+  border-bottom: solid 2.5px #C3073F;
+}
+
+.responsive-navbar-nav {
+  margin-right: 2.5rem;
+}
+
+@media only screen and (max-width: 993px) {
+  .sub-nav-component {
+    padding: 0;
+    font-size: 1.6rem;
+    text-align: right;
+  }
+  nav a.active {
+    border-bottom: 0;
+  }
+}
 .nav {
   display: flex;
   background: #1A1A1D;
@@ -1628,7 +1876,7 @@
 .c-card {
   border: 0;
   width: 49rem;
-  height: 40.1rem;
+  height: 35rem;
 }
 @media (max-width: 56.25em) {
   .c-card {
@@ -1643,7 +1891,7 @@
 }
 .c-card__videosection {
   width: 100%;
-  height: 30rem;
+  height: 28rem;
 }
 .c-card__videosection__video {
   height: 100%;
@@ -1653,7 +1901,8 @@
   padding: 0;
 }
 .c-card__title {
-  font-size: 1.5rem;
+  font-size: 1.4rem;
+  margin-bottom: 0;
 }
 .c-card__text {
   font-size: 1.6rem;

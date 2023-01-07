@@ -114,6 +114,12 @@
     }
 }
 
+.institute-pic{
+    @include respond(phone){
+        margin: 0 1rem;
+    }
+}
+
 .hr-about{
     border: solid 1px grey;
     margin: 2rem;

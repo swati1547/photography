@@ -2,11 +2,12 @@ import React from 'react';
 import aboutpic from '../images/about-pic.jpeg'
 import {NavLink} from "react-router-dom"
 
+
 function About(){
     return(
         <div className='section-about'>
 
-            <h2 className='heading_secondary u-center-text u-margin-bottom-large back-head'>about</h2>
+            <h2 className='u-center-text u-margin-bottom-large back-head'>About</h2>
             <h2 className='heading_secondary u-center-text u-margin-bottom-large front-head'>me</h2>
 
             <div className='row about-sec-block'>

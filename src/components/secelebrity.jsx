@@ -16,8 +16,8 @@ function SecCel(){
                             <Card.Body className='cel-card__para'>
                                 <Card.Title className='heading-tertiory'>hardik joshi</Card.Title>
                                 <Card.Text className='cel-card__paragraph'>
-                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                    Lorem Ipsum
+                                    Hardik joshi as celebrity guest at 'Miss sparcle' show organised 
+                                    by Yuga foundation.
                                 </Card.Text>
                             </Card.Body>
                             <div className='cel-card__img-sec'>
@@ -32,8 +32,7 @@ function SecCel(){
                         <Card.Body className='cel-card__para'>
                             <Card.Title className='heading-tertiory'>manjiri oak</Card.Title>
                             <Card.Text className='cel-card__paragraph'>
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                Lorem Ipsum has been the industry's
+                            manjiri oak name given to nath, her shoot with manjiri Nath on occasion of makarsankrat.
                             </Card.Text>
                         </Card.Body>
                         <div className='cel-card__img-sec'>
@@ -46,9 +45,9 @@ function SecCel(){
                     <div className='cel-div col-lg-4'>
                     <Card className='cel-card'>
                         <Card.Body className='cel-card__para'>
-                            <Card.Title className='heading-tertiory'>nilesh garje</Card.Title>
+                            <Card.Title className='heading-tertiory'>nandita patkar</Card.Title>
                             <Card.Text className='cel-card__paragraph'>
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                Nandita patkar's shoot at Fairview Lake Mulshi, Pune.
                             </Card.Text>
                         </Card.Body>
                         <div className='cel-card__img-sec'>

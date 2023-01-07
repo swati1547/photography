@@ -13,7 +13,6 @@
     box-shadow: 0 5px 4px -2px rgba(0,0,0,.2);
     padding: 2rem 0 0;
     border: 0;
-    // position: fixed;
 }
 
 .sub-nav-component{
@@ -34,50 +33,31 @@
     top: 0;
 }
 
-// .container{
-//     text-align: center;
-//     padding: 0;
-// }
-
-// .navbar{
-//     text-align: center;
-// }
-
-// .navbar-toggler-icon {
-//     color: black;
-// }
-
 .navbar-collapse{
     padding: 0 7.5rem 0 0;
     column-count: 2;
 }
 
-// .nav-link{
-//     padding: 0;
-//     height: 2.7rem;
-// }
+nav a.active{
+    text-decoration: none;
+    color: #C3073F;
+    border-bottom: solid 2.5px #C3073F;
 
+}
 
+.responsive-navbar-nav{
+    margin-right: 2.5rem;
+}
 
+@media only screen and (max-width: 993px){
+    .sub-nav-component{
+        padding: 0;
+        font-size: 1.6rem;
+        text-align: right;
+    }
 
-// from here make disable
-
-// nav a.active{
-//     text-decoration: none;
-//     color: #C3073F;
-//     border-bottom: solid 2.5px #C3073F;
-
-// }
-
-// @media only screen and (max-width: 993px){
-//     .sub-nav-component{
-//         padding: 0;
-//         font-size: 1.6rem;
-//         text-align: right;
-//     }
-
-//     nav a.active{
-//         border-bottom: 0;
+    nav a.active{
+        border-bottom: 0;
     
-//     }
-// }
+    }
+}

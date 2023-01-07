@@ -1,7 +1,7 @@
 import React,{useState} from 'react';
 import Masonry, {ResponsiveMasonry} from "react-responsive-masonry"
 import {VscChromeClose, VscChevronLeft, VscChevronRight} from 'react-icons/vsc'
-// import img1 from '../images/pre-wedding/prew-1.jpg'
+import img1 from '../images/pre-wedding/prew-1.jpg'
 // import img2 from '../images/pre-wedding/prew-2.jpg'
 // import img3 from '../images/pre-wedding/prew-3.jpg'
 // import img4 from '../images/pre-wedding/prew-4.jpg'
@@ -37,7 +37,7 @@ import {VscChromeClose, VscChevronLeft, VscChevronRight} from 'react-icons/vsc'
 // import img34 from '../images/pre-wedding/prew-34.jpg'
 
 const images = [
-    // (img1),
+    (img1),
     // (img2),
     // (img3),
     // (img4),

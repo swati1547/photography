@@ -1,7 +1,12 @@
-.testimonial-head {
+.testimonial-heading {
   margin: 0;
-  background-color: black;
-  padding: 1.3rem;
+  background-color: #1A1A1D;
+  padding: 2.6rem;
+  border-bottom: solid 0.4rem #c3073f;
+}
+.testimonial-heading__text {
+  color: #f7f7f7;
+  font-family: "Noto Serif Khojki", serif;
 }
 
 .review-carousel-section {

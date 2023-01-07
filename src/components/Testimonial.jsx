@@ -12,7 +12,9 @@ function Testimonial(){
     return(
         <div className='review-carousel-section'>
 
-
+<div className='testimonial-heading'>
+<h2 className='heading_secondary u-center-text testimonial-heading__text'>testimonial</h2>
+</div>
 
 <Carousel variant="dark">
       <Carousel.Item>

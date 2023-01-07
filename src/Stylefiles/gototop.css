@@ -18,7 +18,7 @@
 @media (max-width: 37.5em) {
   .top-btn {
     bottom: 2.2rem;
-    right: 3rem;
+    right: 1rem;
   }
 }
 
@@ -52,7 +52,7 @@
 @media (max-width: 37.5em) {
   .share-btn {
     bottom: 8.1rem;
-    right: 3.2rem;
+    right: 1.6rem;
   }
 }
 

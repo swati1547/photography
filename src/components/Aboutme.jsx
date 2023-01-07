@@ -3,7 +3,9 @@ import mainpic from '../images/about-main2.jpg'
 import Navbar1 from './Navbar1'
 import photographer from '../images/photographer.jpg'
 import model from '../images/model-pic.jpeg'
+import institute from '../images/institute-pic.jpeg'
 import aboutbackground2 from '../images/about-img.jpeg'
+import Footer from './Footer';
 
 function Aboutme(){
     return(
@@ -75,7 +77,7 @@ function Aboutme(){
 
             <div className='about-block row'>
                 <div className='photographer-div col-lg-5'>
-                    <img className='photographer-div__pic' src={photographer}></img>
+                    <img className='photographer-div__pic institute-pic' src={institute}></img>
                 </div>
                 <div className='photographer-div__para col-lg-7'>
                     <h2 className='heading-tertiory about-headings'>
@@ -90,6 +92,7 @@ function Aboutme(){
             </div>
             </div>
             
+            {Footer()}
         </div>
         
     )

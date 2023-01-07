@@ -8,24 +8,24 @@ import About from "./About.jsx";
 import Testimonial from "./Testimonial";
 import Footer from './Footer';
 import Video from './Video';
-// import Piccarousel from './carousel'
+import Piccarousel from './carousel'
 import Icons from './Icons'
-// import Sharebtn from './sharebtn';
-// import GoTOTop from './gototop';
+import Sharebtn from './sharebtn';
+import GoTOTop from './gototop';
 
 
 function Mainpage(){
     return(
         <div>
-            {/* {Sharebtn()} */}
-            {/* {GoTOTop()} */}
+            {Icons()}
+            {Sharebtn()}
+            {GoTOTop()}
             {Navbar1()}
             {Header()}
-            {Icons()}
             {About()}
             {Services()}
             {SecCel()}
-            {/* {Piccarousel()} */}
+            {Piccarousel()}
             {Video()}
             {Testimonial()}
             {Footer()}

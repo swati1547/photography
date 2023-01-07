@@ -33,10 +33,10 @@
   border-radius: 0.7rem;
 }
 .cel-card__para {
-  height: 13rem;
+  height: 10rem;
   font-size: 1.6rem;
   line-height: 2rem;
-  padding: 2.5rem 0 0;
+  padding: 1.5rem 0 0;
 }
 @media (max-width: 56.25em) {
   .cel-card__para {
@@ -45,6 +45,7 @@
 }
 @media (max-width: 37.5em) {
   .cel-card__para {
+    height: 9.3rem;
     padding-top: 0.8rem;
   }
 }

@@ -13,6 +13,19 @@
     text-align: center;
   }
   
+  .heading_second-sub{
+    display: block;
+    font-size: 2.1rem;
+    font-weight: 300;
+    letter-spacing: .2rem;
+    margin-top: 5rem;
+    text-transform: none;
+    animation-name: moveUp;
+    animation-duration: 1s;
+    animation-delay: .5s;
+    animation-timing-function: ease-out;
+  }
+
   @-webkit-keyframes moveInLeft {
     0% {
       opacity: 0;
@@ -57,6 +70,16 @@
     }
     80% {
       transform: translateX(-1rem);
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes moveUp {
+    0% {
+      opacity: 0;
+      transform: translateY(5rem);
     }
     100% {
       opacity: 1;

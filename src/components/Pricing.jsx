@@ -40,7 +40,7 @@ function Pricing(){
 
                     <div className='price-format'>
                         <h3 className='plan-head'>Album</h3>
-                        <p className='plan-para'>1 NT photobook album 12x36 size,  30 sheets, + mini album + ebook card +bag + table calendar.</p>
+                        <p className='plan-para'>1 NT photobook album 12x36 size, 30 sheets, + mini album + bag + table calendar.</p>
                         <p className='plan-para'>Amount -10,000/-</p>
                         {/* <p className='plan-para'>asdf sdfgh sdfghj - *79464</p> */}
                     </div>
@@ -56,14 +56,13 @@ function Pricing(){
                 <div className='points-sec'>
                 <h2 className='heading-tertiory'>Our Wedding Packages Include:</h2>
                 <ul>
-                    <li>Candid Photography by Award-Winning Photographers</li>
-                    <li>Creative Wedding Filming</li>
-                    <li>All events' coverage</li>
-                    <li>Bride AND Groom's side coverage</li>
-                    <li>300-500 high resolution wedding photographs per day of photography</li>
-                    <li>3-5 minute wedding film teaser / trailer</li>
-                    <li>30-40 min fullHD story based wedding film</li>
-                    <li>Online gallery of your wedding photos</li>
+                    <li>Professional candid photographer</li>
+                    <li>Professional traditional photographer</li>
+                    <li>Professional traditional videographer</li>
+                    <li>We provide same edited photos</li>
+                    <li>Full event hd 4k video</li>
+                    <li>Album size 12x36 photobook NT  matt/glossy + 1 minibook album + 1 calendar</li>
+                    <li>Food and stay by client side.</li>
                 </ul>
                 </div>
 

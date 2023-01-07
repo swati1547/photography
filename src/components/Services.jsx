@@ -45,7 +45,8 @@ function Services(){
                             cinematography
                         </h4>
                         <p className='service-box__text'>
-                            we have done cinematography 
+                            cinematography, the art and technology of motion-picture photography. to know 
+                            more visit videography section. 
                         </p>
                     </div> 
                 </div>
