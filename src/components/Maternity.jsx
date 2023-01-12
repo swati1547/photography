@@ -109,7 +109,7 @@ const Maternity = () => {
                     <button onClick={()=>imgAction('previous-img')} className='background__pre-btn'>
                         <VscChevronLeft strock-width='0.3' className='background__icon'/>
                     </button>
-                    <img src={data.img} style={{width:'auto', maxWidth:'90%', maxHeight:'90%'}} />
+                    <img src={data.img} style={{width:'auto', maxWidth:'90%', maxHeight:'90%'}}  alt=''/>
                     <button onClick={()=>imgAction('next-img')} className='background__next-btn'>
                         <VscChevronRight strock-width='0.3' className='background__icon'/>
                     </button>

@@ -12,10 +12,10 @@ function Aboutme(){
         <div>
             <Navbar1/>
             <div className='about-background'>
-                <img className='about-background__image' src={aboutbackground2}></img>
+                <img className='about-background__image' src={aboutbackground2} alt=''></img>
             </div>
                 <div className='main-image'> 
-                    <img className='main-image__pic' src={mainpic}></img>
+                    <img className='main-image__pic' src={mainpic} alt=''></img>
                 </div>
             <div className='about-page'>
 
@@ -39,7 +39,7 @@ function Aboutme(){
 
             <div className='about-block row'>
                 <div className='photographer-div col-lg-5'>
-                    <img className='photographer-div__pic' src={photographer}></img>
+                    <img className='photographer-div__pic' src={photographer} alt=''></img>
                 </div>
                 <div className='photographer-div__para col-lg-7'>
                     <h2 className='heading-tertiory about-headings'>
@@ -69,7 +69,7 @@ function Aboutme(){
                     </p>
                 </div>
                 <div className='model-div col-lg-4'>
-                    <img className='model-div__pic' src={model}></img>
+                    <img className='model-div__pic' src={model} alt=''></img>
                 </div>
             </div>
 
@@ -77,7 +77,7 @@ function Aboutme(){
 
             <div className='about-block row'>
                 <div className='photographer-div col-lg-5'>
-                    <img className='photographer-div__pic institute-pic' src={institute}></img>
+                    <img className='photographer-div__pic institute-pic' src={institute} alt=''></img>
                 </div>
                 <div className='photographer-div__para col-lg-7'>
                     <h2 className='heading-tertiory about-headings'>

@@ -51,7 +51,7 @@ function About(){
 
                 {/* about image section */}
                 <div className='col-lg-6'>
-                    <img className='about-img' src={aboutpic} alt="image"/>
+                    <img className='about-img' src={aboutpic} alt=""/>
                 </div>
                 {/* about image section ends */}
                 

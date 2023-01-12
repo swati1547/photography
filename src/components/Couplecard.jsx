@@ -1,6 +1,5 @@
 import React from 'react';
 import Card from 'react-bootstrap/Card';
-// import video from "../images/video.mp4"
 
 function CoupleCard(props){
     return(

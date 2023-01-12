@@ -23,7 +23,7 @@ function SecCel(){
                                 </Card.Text>
                             </Card.Body>
                             <div className='cel-card__img-sec'>
-                                <img className='cel-card__img' src={cel1}></img>
+                                <img className='cel-card__img' src={cel1} alt=''></img>
                             </div>
                             
                     </Card>
@@ -36,11 +36,11 @@ function SecCel(){
                             <Card.Text className='cel-card__paragraph'>
                             manjiri oak name given to nath, her shoot with manjiri Nath on occasion of makarsankrat.
                             &emsp;&emsp;<span className='you-tube-logo__text'>click here</span>&rarr;
-                                <a href='https://youtu.be/CuBb0W7Lxew'><img className='you-tube-logo' src={u_tube}></img></a>
+                                <a href='https://youtu.be/CuBb0W7Lxew'><img className='you-tube-logo' src={u_tube} alt=''></img></a>
                             </Card.Text>
                         </Card.Body>
                         <div className='cel-card__img-sec'>
-                            <img className='cel-card__img' src={cel2}></img>
+                            <img className='cel-card__img' src={cel2} alt=''></img>
                         </div>
                     </Card>
                     </div>
@@ -55,7 +55,7 @@ function SecCel(){
                             </Card.Text>
                         </Card.Body>
                         <div className='cel-card__img-sec'>
-                            <img className='cel-card__img' src={cel3}></img>
+                            <img className='cel-card__img' src={cel3} alt=''></img>
                         </div>
                     </Card>
                     </div>
