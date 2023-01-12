@@ -8,7 +8,9 @@ import About from "./About.jsx";
 import Testimonial from "./Testimonial";
 import Footer from './Footer';
 import Video from './Video';
+import Follow from './Follow'
 import Piccarousel from './carousel'
+import Image from './Image'
 import Icons from './Icons'
 import Sharebtn from './sharebtn';
 import GoTOTop from './gototop';
@@ -26,7 +28,9 @@ function Mainpage(){
             {Services()}
             {SecCel()}
             {Piccarousel()}
+            {Image()}
             {Video()}
+            {Follow()}
             {Testimonial()}
             {Footer()}
             

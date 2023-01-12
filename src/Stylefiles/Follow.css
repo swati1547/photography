@@ -1,0 +1,32 @@
+.follow_us {
+  padding: 7rem 1rem;
+}
+@media (max-width: 37.5em) {
+  .follow_us {
+    padding: 2rem 1rem;
+  }
+}
+
+.contact_text {
+  font-size: 1.6rem;
+  text-align: center;
+}
+
+.contact {
+  text-align: center;
+  margin-top: 3rem;
+}
+@media (max-width: 37.5em) {
+  .contact {
+    margin-top: auto;
+  }
+}
+.contact__logo {
+  height: 4rem;
+  margin: 0 0.5rem;
+}
+@media (max-width: 37.5em) {
+  .contact__logo {
+    height: 2.8rem;
+  }
+}/*# sourceMappingURL=Follow.css.map */

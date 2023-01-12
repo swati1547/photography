@@ -22,9 +22,9 @@ const Property=[
     },
 
     {
-        cardvid : "https://www.youtube.com/embed/BiWIh8QQXeM",
-        cardhead : "Maharashtrian Couple",
-        cardtext : "couple shoot with traditional maharashtrian look."
+        cardvid : "https://www.youtube.com/embed/iQ8nHf1nXek",
+        cardhead : "Chaitali Barde",
+        cardtext : "Fast Highlights of wedding."
     }
 ]
 

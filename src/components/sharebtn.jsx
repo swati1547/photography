@@ -1,10 +1,21 @@
 import React from "react";
 import {CopyToClipboard} from 'react-copy-to-clipboard';
-import { BsShareFill } from "react-icons/bs";
+import {MdShare} from "react-icons/md";
+import { ReactNotifications } from 'react-notifications-component'
+import 'react-notifications-component/dist/theme.css'
 
 function MyButton(props) {
     return <button {...props} />
 }
+
+// const App = () => {
+//     return (
+//       <div className="app-container">
+//         <ReactNotifications />
+//         <Application />
+//       </div>
+//     )
+//   };
 
 function Sharebtn() {
     const [value, setValue] = React.useState('i am a link');
@@ -24,11 +35,11 @@ function Sharebtn() {
         <div>
             <section className="share-btn">
                 <CopyToClipboard onCopy={onCopy} text={value}>
-                    <BsShareFill className='share-icon'/>
+                    <MdShare className='share-icon'/>
                 </CopyToClipboard>
             </section>
-            <alert className="copied-alert">
-                {copied ? <span>Copied.</span> : null}
+            <alert onClick={onClick} className="copied-alert">
+                {copied ? <span className="copied">Copied</span> : null}
             </alert>
         </div>
     );

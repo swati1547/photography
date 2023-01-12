@@ -1,5 +1,5 @@
 import React from "react";
-import { BsArrowUpCircle } from "react-icons/bs";
+import { BsFillArrowUpCircleFill } from "react-icons/bs";
 
 const GoTOTop = () => {
     const GoToBtn = () =>{
@@ -7,7 +7,7 @@ const GoTOTop = () => {
     }
 
     return <div className="top-btn" onClick={GoToBtn}>
-        <BsArrowUpCircle className='top_icon' />
+        <BsFillArrowUpCircleFill className='top_icon' />
     </div>
 };
 

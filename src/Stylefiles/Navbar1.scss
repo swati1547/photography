@@ -1,3 +1,5 @@
+@import './Mixin.scss';
+
 .nav{
     display: flex;
     background: #1A1A1D; 
@@ -11,7 +13,27 @@
 
 .logo1{
     text-align: center;
+    display: flex;
+    justify-content: center;
 }
+
+.logo{
+    height: 6rem;
+    width: 16rem;
+    margin: .7rem;
+
+    @include respond(phone){
+        height: 6rem;
+        // width: 11.8rem;
+        margin: 0.4rem 0 0;
+    }
+
+    &__img{
+        height: 100%;
+        width: 100%;
+    }
+}
+
 
 .nav_bar{
     text-align: center;

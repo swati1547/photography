@@ -1,5 +1,6 @@
-import React, { useEffect } from 'react';
-import {NavLink, Link} from "react-router-dom"
+import {React} from 'react';
+import {NavLink} from "react-router-dom"
+import logo from "../images/logo_img.png"
 
 function Navbar1(){
     return(
@@ -7,9 +8,11 @@ function Navbar1(){
             <nav className='nav'>
             <div className=' col-lg-6'>
             <div className='logo1'>
-                    <h1>photo</h1>
-                    {/* <img src={logo}></img> */}
-                </div>
+                    <div className='logo'>
+                        <img className='logo__img' src={logo} alt='logo'></img>
+                    </div>
+                    
+            </div>
             </div>
                 
                 <div className='col-lg-6 nav-column'>

@@ -38,8 +38,11 @@ function About(){
                     {/* second paragraph ends */}
 
                     {/* buttons */}
-                    <button className='white-btn' href='https://www.instagram.com/nilgarje_/'>
-                        Follow me on instagram
+                    <button className='white-btn'>
+                    <a className='white-btn__text' href='https://www.instagram.com/nilgarje_/'>
+                    Follow me on instagram
+                    </a>
+                        
                     </button>
                     <NavLink className='text-btn' to='/about'>Know more &rarr;</NavLink>
                     {/* buttons end */}

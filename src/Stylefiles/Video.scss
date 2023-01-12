@@ -1,22 +1,5 @@
 @import './Mixin.scss';
 
-.section-videography{
-    position: relative;
-    padding: 8.5rem 0 10rem;
-    background-color: rgba(255, 255, 255, 0);
-
-    @include respond(tab-land){
-        padding: 8.5rem 0 10rem;
-    }
-
-    @include respond(tab-port){
-        padding: 8.5rem 0 10rem;
-    }
-
-    @include respond(phone){
-        padding: 7rem 0 6rem;
-    }
-}
 .video-sec-block{
     padding: 0 21rem;
 
@@ -71,7 +54,7 @@
         transform: skewX(0);
         width: 100%;
         padding: 2.8rem 1.8rem 2rem 2rem;
-        margin: 0 auto 4rem;
+        margin: 0 auto 2rem;
     }
 
 
@@ -113,5 +96,6 @@
 
     &__para{
         margin: 0;
+        text-align: justify;
     }
 }

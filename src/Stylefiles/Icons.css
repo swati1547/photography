@@ -1,12 +1,40 @@
 .icons-bar {
   position: fixed;
   z-index: 2;
-  top: 20vh;
-  right: 0rem;
+  top: 18vh;
+  right: 1.4rem;
+}
+@media (max-width: 75em) {
+  .icons-bar {
+    top: 14vh;
+    right: 1.2rem;
+  }
+}
+@media (max-width: 37.5em) {
+  .icons-bar {
+    top: 18vh;
+    right: 0.4rem;
+  }
+}
+.icons-bar__icons {
+  display: block;
+  margin: 1rem;
+}
+@media (max-width: 37.5em) {
+  .icons-bar__icons {
+    font-size: 2rem;
+    margin: 0.2rem;
+  }
 }
 .icons-bar__icon {
   font-size: 3rem;
-  margin: 0.7rem 0;
   color: rgba(195, 7, 63, 0.768627451);
-  font-weight: 1rem;
+}
+.icons-bar__icon:hover {
+  font-size: 2.3rem;
+}
+@media (max-width: 37.5em) {
+  .icons-bar__icon {
+    font-size: 2.6rem;
+  }
 }/*# sourceMappingURL=Icons.css.map */

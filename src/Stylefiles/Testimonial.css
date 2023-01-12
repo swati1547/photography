@@ -1,17 +1,31 @@
 .testimonial-heading {
   margin: 0;
   background-color: #1A1A1D;
-  padding: 2.6rem;
+  padding: 3.5rem;
   border-bottom: solid 0.4rem #c3073f;
+}
+@media (max-width: 37.5em) {
+  .testimonial-heading {
+    padding: 2.5rem;
+  }
 }
 .testimonial-heading__text {
   color: #f7f7f7;
   font-family: "Noto Serif Khojki", serif;
 }
 
+.carousel-inner {
+  line-height: normal;
+}
+
 .review-carousel-section {
   background-color: #ebebeb;
   padding: 0 0 1.5rem;
+}
+@media (max-width: 37.5em) {
+  .review-carousel-section {
+    padding: 0;
+  }
 }
 
 .carousel-indicators {
@@ -22,9 +36,10 @@
 }
 
 .re-carousel {
-  padding: 5rem 5rem 7rem;
+  padding: 6rem 5rem 8rem;
   justify-content: center;
   display: flex;
+  height: 38rem;
 }
 .re-carousel__pic-sec {
   width: 18.5rem;
@@ -41,17 +56,35 @@
   border-radius: 50%;
   margin: 1rem 1rem 2rem;
 }
+@media (max-width: 37.5em) {
+  .re-carousel__pic {
+    height: 12.5rem;
+    width: 12.5rem;
+    margin: 1rem 1rem 1rem;
+  }
+}
 .re-carousel__shoot-name {
   text-align: center;
 }
+@media (max-width: 37.5em) {
+  .re-carousel__shoot-name {
+    margin: 0;
+  }
+}
 .re-carousel__review-sec {
-  width: 46rem;
+  width: 49rem;
   padding: 1rem 0 0;
 }
 .re-carousel__name {
   text-align: right;
   font-size: 1.6rem;
   margin-top: 3rem;
+}
+@media (max-width: 37.5em) {
+  .re-carousel__name {
+    font-size: 1.4rem;
+    margin: 0.2rem 0 0.4rem;
+  }
 }
 .re-carousel__only-review {
   position: relative;
@@ -60,6 +93,13 @@
   font-size: 1.7rem;
   margin: 0 3rem;
   padding: 2.4rem 1.8rem;
+  font-family: "Kalam", cursive;
+}
+@media (max-width: 37.5em) {
+  .re-carousel__review {
+    font-size: 1.6rem;
+    margin: 0;
+  }
 }
 .re-carousel__icon-left {
   font-size: 3.3rem;
@@ -68,12 +108,22 @@
   left: 0;
   opacity: 0.3;
 }
+@media (max-width: 37.5em) {
+  .re-carousel__icon-left {
+    font-size: 2rem;
+  }
+}
 .re-carousel__icon-right {
   font-size: 3.3rem;
   position: absolute;
   bottom: 0;
   right: 0;
   opacity: 0.3;
+}
+@media (max-width: 37.5em) {
+  .re-carousel__icon-right {
+    font-size: 2rem;
+  }
 }
 @media (max-width: 56.25em) {
   .re-carousel {
@@ -82,6 +132,7 @@
 }
 @media (max-width: 37.5em) {
   .re-carousel {
-    padding: 1rem 6rem 3rem;
+    padding: 0.5rem 2rem 1.3rem;
+    height: 43rem;
   }
 }/*# sourceMappingURL=Testimonial.css.map */

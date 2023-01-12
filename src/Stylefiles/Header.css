@@ -11,8 +11,8 @@
 }
 @media (max-width: 37.5em) {
   .header {
-    -webkit-clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%);
-    clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 88vh);
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 72vh, 0 80vh);
+    clip-path: polygon(0 0, 100% 0, 100% 72vh, 0 80vh);
   }
 }
 

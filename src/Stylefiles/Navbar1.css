@@ -11,6 +11,24 @@
 
 .logo1 {
   text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.logo {
+  height: 6rem;
+  width: 16rem;
+  margin: 0.7rem;
+}
+@media (max-width: 37.5em) {
+  .logo {
+    height: 6rem;
+    margin: 0.4rem 0 0;
+  }
+}
+.logo__img {
+  height: 100%;
+  width: 100%;
 }
 
 .nav_bar {

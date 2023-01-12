@@ -34,7 +34,6 @@ import img1 from '../images/pre-wedding/prew-1.jpg'
 // import img31 from '../images/pre-wedding/prew-31.jpg'
 // import img32 from '../images/pre-wedding/prew-32.jpg'
 // import img33 from '../images/pre-wedding/prew-33.jpg'
-// import img34 from '../images/pre-wedding/prew-34.jpg'
 
 const images = [
     (img1),
@@ -70,7 +69,6 @@ const images = [
     // (img31),
     // (img32),
     // (img33),
-    // (img34),
 ]
 
 const Prewedding = () => {

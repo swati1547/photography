@@ -1,9 +1,7 @@
 import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
-import coupple1 from "../images/couple1.jpg";
-import coupple2 from "../images/couple2.jpg";
-import coupple3 from "../images/couple3.jpg";
-import pic from '../images/pic6.jpg'
+import pic1 from "../images/test-1.jpg";
+import pic2 from "../images/test-2.jpg";
 import {ImQuotesLeft, ImQuotesRight} from 'react-icons/im'
 
 
@@ -20,22 +18,43 @@ function Testimonial(){
       <Carousel.Item>
       <div className='row re-carousel'>
                 <div className='re-carousel__pic-sec'>
-                    <img className='re-carousel__pic' src={pic}></img>
-                    <h3 className='heading-tertiory re-carousel__shoot-name'>wedding</h3>
+                    <img className='re-carousel__pic' src={pic1} alt=''></img>
+                    <h3 className='heading-tertiory re-carousel__shoot-name'>maternity</h3>
                 </div>
                 <div className='re-carousel__review-sec'>
                     <div className='re-carousel__only-review'>
                         <ImQuotesLeft className='re-carousel__icon-left'/>
-                        <p className='re-carousel__review'>Photography for all type of events. Single photographer or team of professional 
-                                photographers available as need or order.
+                        <p className='re-carousel__review'>
+                            Having a great knowledge about photography, gives ample 
+                            of time to photograph any pic and give you instant photos.
                         </p>
                         <ImQuotesRight className='re-carousel__icon-right'/>
                     </div>
-                        <p className='re-carousel__name'>-swati garje</p>
+                        <p className='re-carousel__name'>-Tejas Hazare</p>
                 </div>
             </div>
       </Carousel.Item>
       <Carousel.Item>
+      <div className='row re-carousel'>
+                <div className='re-carousel__pic-sec'>
+                    <img className='re-carousel__pic' src={pic2} alt=''></img>
+                    <h3 className='heading-tertiory re-carousel__shoot-name'>wedding</h3>
+                </div>
+                <div className='re-carousel__review-sec'>
+                <div className='re-carousel__only-review'>
+                <ImQuotesLeft className='re-carousel__icon-left'/>
+                    <p className='re-carousel__review'>The best photographers team I have ever seen. 
+                    I gave them my wedding photography contract, 
+                    they nailed it and many of my friends given them Different events contract like baby shower, 
+                    birthday, corporate event etc. you can blindly trust them and they will make your event even more beautiful...
+                    </p>
+                    <ImQuotesRight className='re-carousel__icon-right'/>
+                    </div>
+                    <p className='re-carousel__name'>-Chaitali Barde</p>
+                </div>
+            </div>
+      </Carousel.Item>
+      {/* <Carousel.Item>
       <div className='row re-carousel'>
                 <div className='re-carousel__pic-sec'>
                     <img className='re-carousel__pic' src={pic}></img>
@@ -52,46 +71,9 @@ function Testimonial(){
                     <p className='re-carousel__name'>-swati garje</p>
                 </div>
             </div>
-      </Carousel.Item>
-      <Carousel.Item>
-      <div className='row re-carousel'>
-                <div className='re-carousel__pic-sec'>
-                    <img className='re-carousel__pic' src={pic}></img>
-                    <h3 className='heading-tertiory re-carousel__shoot-name'>wedding</h3>
-                </div>
-                <div className='re-carousel__review-sec'>
-                <div className='re-carousel__only-review'>
-                <ImQuotesLeft className='re-carousel__icon-left'/>
-                    <p className='re-carousel__review'>Photography for all type of events. Single photographer or team of professional 
-                            photographers available as need or order.
-                    </p>
-                    <ImQuotesRight className='re-carousel__icon-right'/>
-                    </div>
-                    <p className='re-carousel__name'>-swati garje</p>
-                </div>
-            </div>
-      </Carousel.Item>
+      </Carousel.Item> */}
     </Carousel>
 
-
-
-
-            {/* <div className='row'>
-                <div className='carousel__pic-sec'>
-                    <img className='carousel__pic' src={pic}></img>
-                    <h3 className='heading-tertiory carousel__shoot-name'>wedding</h3>
-                </div>
-                <div className='carousel__review-sec'>
-                <div className='carousel__only-review'>
-                <ImQuotesLeft className='carousel__icon-left'/>
-                    <p className='carousel__review'>Photography for all type of events. Single photographer or team of professional 
-                            photographers available as need or order.
-                    </p>
-                    <ImQuotesRight className='carousel__icon-right'/>
-                    </div>
-                    <p className='carousel__name'>-swati garje</p>
-                </div>
-            </div> */}
         </div>
     )
 }

@@ -26,7 +26,7 @@
     color: #1A1A1D;
 
     @include respond(phone){
-        font-size: 3.7rem;
+        font-size: 3.2rem;
     }
 }
 
@@ -63,6 +63,21 @@
 .copied-alert{
     color: #1A1A1D;
     position: fixed;
-    bottom: 17rem;
-    right: 2.5rem;
+    bottom: 19rem;
+    right: 3rem;
+    font-size: 1.4rem;
+
+    @include respond(tab-land){
+        bottom: 17rem;
+    }
+
+    @include respond(tab-port){
+        bottom: 16rem;
+        right: 1.5rem;
+    }
+
+    @include respond(phone){
+        bottom: 11rem;
+        right: 0.6rem;
+    }
 }

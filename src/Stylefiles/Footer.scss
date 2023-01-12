@@ -2,7 +2,7 @@
 
 .footer{
     background-image: url("../images/footer_img.jpeg");
-    height: 29rem;
+    height: 30rem;
     object-fit: fill;
     background-color: #cccccc;
     background-position: center;
@@ -12,11 +12,11 @@
     border-top: solid .4rem #c3073f;
 
     @include respond(tab-port) {
-        height: 30rem;
+        height: 40rem;
     }
 
     @include respond(phone) {
-            height: 39rem;
+            height: 40rem;
     }
 }
 
@@ -54,9 +54,41 @@
     }
 }
 
-.columns{
+// .columns{
+//     @include respond(tab-port){
+//         width: 50%;
+//     }
+// }
+.logo-div{
+    height: 13rem;
+    width: 29rem;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 5.2rem auto;
+    
+
+    @include respond(tab-land){
+        height: 10rem;
+        width: 22rem;
+        margin: 6.2rem auto;
+    }
+
+    @include respond(tab-port){
+        height: 7rem;
+        width: 17rem;
+        margin: 0rem auto;
+    }
+
     @include respond(phone){
-        width: 50%;
+        height: 7rem;
+        width: 16rem;
+        margin: 1rem auto;
+    }
+
+    &__img{
+        height: 100%;
+        width: 100%;
     }
 }
 
@@ -66,18 +98,58 @@
     padding: 0;
     margin-top: 3.5rem;
 
+    @include respond(tab-port){
+        margin: 0;
+        display: flex;
+        justify-content: center;
+    }
+
     @include respond(phone){
         margin: 0;
+        display: flex;
+        justify-content: center;
     }
 }
 
 .list_item{
     padding: .5rem;
+    cursor: pointer;
+    text-decoration: none;
+    color: #f7f7f7;
+    display: block;
+
+    &:hover{
+        text-decoration: none;
+        color: #c3073fc4;
+    }    
+
+    @include respond(tab-port){
+        float: left;
+        padding: 1rem;
+    }
+
+    @include respond(phone){
+        float: left;
+        padding: 1rem;
+    }
+}
+
+.follow-us{
+    @include respond(tab-port){
+        margin: 0;
+    }
+    @include respond(phone){
+        margin: 0;
+    }
 }
 
 .social{
     padding :0 1rem;
     margin: 0;
+
+    @include respond(tab-port){
+        padding: 0;
+    }
 
     @include respond(phone){
         padding: 0;
@@ -89,21 +161,41 @@
     display: inline-block;
     padding: .3rem .8rem;
     margin: .3rem;
+
+    @include respond(tab-port){
+        padding: 0;
+        margin: 0;
+    }
+
+    @include respond(phone){
+        padding: 0;
+        margin: 0;
+    }
 }
 
+
 .sicon{
-    size: 1rem;
-    color: aliceblue;
+    // size: 1rem;
+    color: #f7f7f7;
     font-size: 2.8rem; 
     margin: 1rem;
+
+    @include respond(phone){
+        font-size: 2.2rem; 
+        margin: .8rem;
+    }
 }
 
 .sicon:hover{
-    color: #c3073f88;
+    color: #c3073fc4;
 }
 
 .footer_social{
     margin-top: 4%;
+
+    @include respond(tab-port){
+        margin-top: 0;
+    }
 
     @include respond(phone){
         margin-top: 1%;
@@ -115,15 +207,29 @@
     margin-top: 3rem;
     margin-bottom: 2.2rem;
 
+    @include respond(tab-port){
+        margin-top: 1.8rem;
+        margin-bottom: .6rem;
+        font-size: 2rem;
+    }
+
     @include respond(phone){
-        margin-top: 1rem;
-        margin-bottom: 1rem;
-        font-size: 2.4rem;
+        margin-top: 1.8rem;
+        margin-bottom: .6rem;
+        font-size: 2rem;
     }
 }
 
 .footer_para{
     font-size: 1.6rem;
+
+    @include respond(tab-port){
+        margin-bottom: 0;
+    }
+
+    @include respond(phone){
+        margin-bottom: 0;
+    }
 }
 
 .contact_info{
@@ -135,11 +241,11 @@
     }
 
     @include respond(tab-port){
-        padding-left: .8rem;
+        text-align: center;
     }
 
     @include respond(phone){
-        padding-left: .8rem;
+        text-align: center;
     }
 }
 
@@ -154,69 +260,8 @@
     color: rgba(171, 171, 171, 0.5);
     font-size: 1.6rem;
     text-align: center;
+
+    @include respond(phone){
+        margin-top: 1rem;
+    }
 }
-
-// @media only screen and (max-width: 600px){
-//     .footer-rows{
-//         padding: .5rem 1rem;
-//     }
-//     .f-columns{
-//         padding:0;
-//     }
-//     .footer_list{
-//         margin:0;
-//         padding-right: 3rem;
-//     }
-//     .footer_head{
-//         margin-top: 3.6rem;
-//         font-size: 2.6rem;
-//         margin-bottom: 1rem;
-//     }
-//     .footer{
-//         height: 36.5rem;
-//     }
-//     .footer_social{
-//         margin-top: 9%;
-//     }
-// }
-
-// @media only screen and (min-width: 768px){
-//     .footer{
-//         height: 29rem;
-//     }
-//     .footer-rows{
-//         padding: .5rem 1rem;
-//     }
-//     .columns{
-//         padding: 0;
-//     }
-//     .socialm{
-//         padding: .3rem .8rem;
-//         margin: 0;
-//     }
-//     .social{
-//         padding : 3rem 0 0;
-//         margin: 0;
-//     }
-//     .contact_info{
-//         padding-left: 2%;
-//     }
-//     .footer_list{
-//         margin-top: 6rem;
-//     }
-//     .footer_head{
-//         font-size: 3rem;
-//     }
-// }
-
-// @media only screen and (min-width: 992px){
-//     .footer{
-//         height: 31rem;
-//     }
-// }
-
-// @media only screen and (min-width: 1200px){
-//     .footer{
-//         height: 29rem;
-//     }
-// }
