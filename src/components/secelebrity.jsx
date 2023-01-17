@@ -1,10 +1,10 @@
 import React from 'react';
 import Card from 'react-bootstrap/Card';
 import { Link } from "react-router-dom"
-import cel1 from '../images/cel-1.jpg'
-import cel2 from '../images/cel-2.jpg'
-import cel3 from '../images/cel-3.JPG'
-import u_tube from '../images/you-tube.png'
+import cel1 from '../images/cel-1.jpeg'
+import cel2 from '../images/cel-2.jpeg'
+import cel3 from '../images/cel-3.jpeg'
+import u_tube from '../images/you-tube.jpeg'
 
 function SecCel(){
     return(

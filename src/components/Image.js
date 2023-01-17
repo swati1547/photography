@@ -1,33 +1,22 @@
 import React,{useState} from 'react';
 import Masonry, {ResponsiveMasonry} from "react-responsive-masonry"
 import {VscChromeClose, VscChevronLeft, VscChevronRight} from 'react-icons/vsc'
-import img1 from '../images/media/img-1.jpg'
-import img2 from '../images/media/img-2.jpg'
-import img3 from '../images/media/img-3.jpg'
-import img4 from '../images/media/img-4.jpg'
-import img5 from '../images/media/img-5.jpg'
-import img6 from '../images/media/img-6.jpg'
-import img7 from '../images/media/img-7.jpg'
-import img8 from '../images/media/img-8.jpg'
-import img9 from '../images/media/img-9.jpg'
-import img10 from '../images/media/img-10.jpg'
-import img11 from '../images/media/img-11.jpg'
-import img12 from '../images/media/img-12.jpg'
+
 
 
 const images = [
-    (img1),
-    (img2),
-    (img3),
-    (img4),
-    (img5),
-    (img6),
-    (img7),
-    (img8),
-    (img9),
-    (img10),
-    (img11),
-    (img12),
+'https://nilgrjebucket.s3.ap-south-1.amazonaws.com/images/pre-wedding/prew-12_11zon.jpeg',
+'https://nilgrjebucket.s3.ap-south-1.amazonaws.com/images/wedding/wed-15_11zon.jpeg',
+'https://nilgrjebucket.s3.ap-south-1.amazonaws.com/images/wedding/wed-33_11zon.jpeg',
+'https://nilgrjebucket.s3.ap-south-1.amazonaws.com/images/pre-wedding/prew-16_11zon.jpeg',
+'https://nilgrjebucket.s3.ap-south-1.amazonaws.com/images/wedding/wed-7_11zon.jpeg',
+'https://nilgrjebucket.s3.ap-south-1.amazonaws.com/images/wedding/wed-11_11zon.jpeg',
+'https://nilgrjebucket.s3.ap-south-1.amazonaws.com/images/wedding/wed-49_11zon.jpeg',
+'https://nilgrjebucket.s3.ap-south-1.amazonaws.com/images/Maternity/mat-9_11zon.jpeg',
+'https://nilgrjebucket.s3.ap-south-1.amazonaws.com/images/Maternity/mat-4_11zon.jpeg',
+'https://nilgrjebucket.s3.ap-south-1.amazonaws.com/images/kids/kid-10_11zon.jpeg',
+'https://nilgrjebucket.s3.ap-south-1.amazonaws.com/images/kids/kid-20_11zon.jpeg',
+'https://nilgrjebucket.s3.ap-south-1.amazonaws.com/images/Maternity/mat-17_11zon.jpeg',
 ]
 
 const Image = () => {
@@ -78,7 +67,7 @@ const Image = () => {
                 >
                     <Masonry gutter='10px'>
                         {images.map((image, i) => (
-                            <img className='gallery-block__images'
+                            <img className='gallery-block__images image'
                                 key={i}
                                 src={image}
                                 alt=""

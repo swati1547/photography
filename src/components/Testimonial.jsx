@@ -1,7 +1,7 @@
 import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
-import pic1 from "../images/test-1.jpg";
-import pic2 from "../images/test-2.jpg";
+import pic1 from "../images/test-1.jpeg";
+import pic2 from "../images/test-2.jpeg";
 import {ImQuotesLeft, ImQuotesRight} from 'react-icons/im'
 
 

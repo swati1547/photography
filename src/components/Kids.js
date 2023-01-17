@@ -1,62 +1,32 @@
 import React,{useState} from 'react';
 import Masonry, {ResponsiveMasonry} from "react-responsive-masonry"
 import {VscChromeClose, VscChevronLeft, VscChevronRight} from 'react-icons/vsc'
-import img1 from '../images/kids/kid-1.jpg'
-// import img2 from '../images/kids/kid-2.jpg'
-// import img3 from '../images/kids/kid-3.jpg'
-// import img4 from '../images/kids/kid-4.jpg'
-// import img5 from '../images/kids/kid-5.jpg'
-// import img6 from '../images/kids/kid-6.jpg'
-// import img7 from '../images/kids/kid-7.jpg'
-// import img8 from '../images/kids/kid-8.jpg'
-// import img9 from '../images/kids/kid-9.jpg'
-// import img10 from '../images/kids/kid-10.jpg'
-// import img11 from '../images/kids/kid-11.jpg'
-// import img12 from '../images/kids/kid-12.jpg'
-// import img13 from '../images/kids/kid-13.jpg'
-// import img14 from '../images/kids/kid-14.jpg'
-// import img15 from '../images/kids/kid-15.jpg'
-// import img16 from '../images/kids/kid-16.jpg'
-// import img17 from '../images/kids/kid-17.jpg'
-// import img18 from '../images/kids/kid-18.jpg'
-// import img19 from '../images/kids/kid-19.jpg'
-// import img20 from '../images/kids/kid-20.jpg'
-// import img21 from '../images/kids/kid-21.jpg'
-// import img22 from '../images/kids/kid-22.jpg'
-// import img23 from '../images/kids/kid-23.jpg'
-// import img24 from '../images/kids/kid-24.jpg'
-// import img25 from '../images/kids/kid-25.jpg'
-// import img26 from '../images/kids/kid-26.jpg'
-// import img27 from '../images/kids/kid-27.jpg'
+
 
 const images = [
-    (img1),
-    // (img2),
-    // (img3),
-    // (img4),
-    // (img5),
-    // (img6),
-    // (img7),
-    // (img8),
-    // (img9),
-    // (img10),
-    // (img11),
-    // (img12),
-    // (img13),
-    // (img14),
-    // (img15),
-    // (img16),
-    // (img17),
-    // (img18),
-    // (img19),
-    // (img20),
-    // (img21),
-    // (img22),
-    // (img23),
-    // (img24),
-    // (img25),
-    // (img26),
-    // (img27),
+    'https://nilgrjebucket.s3.ap-south-1.amazonaws.com/images/kids/kid-2_11zon.jpeg',
+    'https://nilgrjebucket.s3.ap-south-1.amazonaws.com/images/kids/kid-3_11zon.jpeg',
+    'https://nilgrjebucket.s3.ap-south-1.amazonaws.com/images/kids/kid-5_11zon.jpeg',
+    'https://nilgrjebucket.s3.ap-south-1.amazonaws.com/images/kids/kid-7_11zon.jpeg',
+    'https://nilgrjebucket.s3.ap-south-1.amazonaws.com/images/kids/kid-8_11zon.jpeg',
+    'https://nilgrjebucket.s3.ap-south-1.amazonaws.com/images/kids/kid-9_11zon.jpeg',
+    'https://nilgrjebucket.s3.ap-south-1.amazonaws.com/images/kids/kid-10_11zon.jpeg',
+    'https://nilgrjebucket.s3.ap-south-1.amazonaws.com/images/kids/kid-11_11zon.jpeg',
+    'https://nilgrjebucket.s3.ap-south-1.amazonaws.com/images/kids/kid-12_11zon.jpeg',
+    'https://nilgrjebucket.s3.ap-south-1.amazonaws.com/images/kids/kid-13_11zon.jpeg',
+    'https://nilgrjebucket.s3.ap-south-1.amazonaws.com/images/kids/kid-14_11zon.jpeg',
+    'https://nilgrjebucket.s3.ap-south-1.amazonaws.com/images/kids/kid-15_11zon.jpeg',
+    'https://nilgrjebucket.s3.ap-south-1.amazonaws.com/images/kids/kid-16_11zon.jpeg',
+    'https://nilgrjebucket.s3.ap-south-1.amazonaws.com/images/kids/kid-17_11zon.jpeg',
+    'https://nilgrjebucket.s3.ap-south-1.amazonaws.com/images/kids/kid-18_11zon.jpeg',
+    'https://nilgrjebucket.s3.ap-south-1.amazonaws.com/images/kids/kid-19_11zon.jpeg',
+    'https://nilgrjebucket.s3.ap-south-1.amazonaws.com/images/kids/kid-20_11zon.jpeg',
+    'https://nilgrjebucket.s3.ap-south-1.amazonaws.com/images/kids/kid-21_11zon.jpeg',
+    'https://nilgrjebucket.s3.ap-south-1.amazonaws.com/images/kids/kid-22_11zon.jpeg',
+    'https://nilgrjebucket.s3.ap-south-1.amazonaws.com/images/kids/kid-23_11zon.jpeg',
+    'https://nilgrjebucket.s3.ap-south-1.amazonaws.com/images/kids/kid-24_11zon.jpeg',
+    'https://nilgrjebucket.s3.ap-south-1.amazonaws.com/images/kids/kid-25_11zon.jpeg',
+    'https://nilgrjebucket.s3.ap-south-1.amazonaws.com/images/kids/kid-26_11zon.jpeg',
 ]
 
 const Kids = () => {
@@ -102,7 +72,7 @@ const Kids = () => {
             >
                 <Masonry gutter='10px'>
                     {images.map((image, i) => (
-                        <img className='gallery-block__images'
+                        <img className='gallery-block__images image'
                             key={i}
                             src={image}
                             alt=""

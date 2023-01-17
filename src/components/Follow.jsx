@@ -1,8 +1,8 @@
 import React from 'react';
-import logo1 from '../images/logo1.png'
-import logo2 from '../images/logo2.png'
-import logo3 from '../images/logo3.png'
-import logo4 from '../images/logo4.png'
+import logo1 from '../images/logo1.jpeg'
+import logo2 from '../images/logo2.jpeg'
+import logo3 from '../images/logo3.jpeg'
+import logo4 from '../images/logo4.jpeg'
 
 function Follow(){
     return(

@@ -1,37 +1,23 @@
 import React,{useState} from 'react';
 import Masonry, {ResponsiveMasonry} from "react-responsive-masonry"
 import {VscChromeClose, VscChevronLeft, VscChevronRight} from 'react-icons/vsc'
-import img1 from '../images/celebrity/cel-1.jpg'
-// import img2 from '../images/celebrity/cel-2.jpg'
-// import img3 from '../images/celebrity/cel-3.jpg'
-// import img4 from '../images/celebrity/cel-4.jpg'
-// import img5 from '../images/celebrity/cel-5.jpg'
-// import img6 from '../images/celebrity/cel-6.jpg'
-// import img7 from '../images/celebrity/cel-7.JPG'
-// import img8 from '../images/celebrity/cel-8.jpg'
-// import img9 from '../images/celebrity/cel-9.jpg'
-// import img10 from '../images/celebrity/cel-10.jpg'
-// import img11 from '../images/celebrity/cel-11.jpg'
-// import img12 from '../images/celebrity/cel-12.jpg'
-// import img13 from '../images/celebrity/cel-13.jpg'
-// import img14 from '../images/celebrity/cel-14.jpg'
+
 
 
 const images = [
-    (img1),
-    // (img2),
-    // (img3),
-    // (img4),
-    // (img5),
-    // (img6),
-    // (img7),
-    // (img8),
-    // (img9),
-    // (img10),
-    // (img11),
-    // (img12),
-    // (img13),
-    // (img14),
+    'https://nilgrjebucket.s3.ap-south-1.amazonaws.com/images/celebrity/cel-1.jpeg',
+'https://nilgrjebucket.s3.ap-south-1.amazonaws.com/images/celebrity/cel-2.jpeg',
+'https://nilgrjebucket.s3.ap-south-1.amazonaws.com/images/celebrity/cel-3.jpeg',
+'https://nilgrjebucket.s3.ap-south-1.amazonaws.com/images/celebrity/cel-4.jpeg',
+'https://nilgrjebucket.s3.ap-south-1.amazonaws.com/images/celebrity/cel-5.jpg',
+'https://nilgrjebucket.s3.ap-south-1.amazonaws.com/images/celebrity/cel-7_11zon.jpeg',
+'https://nilgrjebucket.s3.ap-south-1.amazonaws.com/images/celebrity/cel-8_11zon.jpeg',
+'https://nilgrjebucket.s3.ap-south-1.amazonaws.com/images/celebrity/cel-9_11zon.jpeg',
+'https://nilgrjebucket.s3.ap-south-1.amazonaws.com/images/celebrity/cel-10_11zon.jpeg',
+'https://nilgrjebucket.s3.ap-south-1.amazonaws.com/images/celebrity/cel-11_11zon.jpeg',
+'https://nilgrjebucket.s3.ap-south-1.amazonaws.com/images/celebrity/cel-12_11zon.jpeg',
+'https://nilgrjebucket.s3.ap-south-1.amazonaws.com/images/celebrity/cel-13_11zon.jpeg',
+'https://nilgrjebucket.s3.ap-south-1.amazonaws.com/images/celebrity/cel-14_11zon.jpeg',
 ]
 
 const Celebrity = () => {
@@ -73,11 +59,11 @@ const Celebrity = () => {
             }
             <div className='gallery-block'>
             <ResponsiveMasonry
-                columnsCountBreakPoints={{350: 1, 750: 2, 900: 3}}
+                columnsCountBreakPoints={{750: 2, 900: 3}}
             >
                 <Masonry gutter='10px'>
                     {images.map((image, i) => (
-                        <img className='gallery-block__images'
+                        <img className='gallery-block__images image'
                             key={i}
                             src={image}
                             alt=""
