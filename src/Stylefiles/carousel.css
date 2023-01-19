@@ -17,6 +17,12 @@
   }
 }
 
+@media (max-width: 37.5em) {
+  .carousel-inner {
+    padding: 1.04rem 0;
+  }
+}
+
 .carousel__image {
   height: 60rem;
   width: 100%;

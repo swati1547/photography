@@ -18,7 +18,7 @@
 }
 @media (max-width: 37.5em) {
   .top-btn {
-    bottom: 2.2rem;
+    bottom: 7rem;
     right: 1rem;
   }
 }
@@ -29,7 +29,7 @@
 }
 @media (max-width: 37.5em) {
   .top_icon {
-    font-size: 3.2rem;
+    font-size: 4rem;
   }
 }
 
@@ -53,7 +53,7 @@
 }
 @media (max-width: 37.5em) {
   .share-btn {
-    bottom: 8.1rem;
+    bottom: 14rem;
     right: 1.6rem;
   }
 }
@@ -61,11 +61,6 @@
 .share-icon {
   font-size: 3.5rem;
   color: #1A1A1D;
-}
-@media (max-width: 37.5em) {
-  .share-icon {
-    font-size: 2.7rem;
-  }
 }
 
 .copied-alert {

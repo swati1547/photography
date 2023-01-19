@@ -52,6 +52,11 @@
     padding: 18rem 2rem 4rem;
   }
 }
+@media (max-width: 37.5em) {
+  .section-celebrity {
+    padding: 20rem 2rem 4rem;
+  }
+}
 
 .section-image {
   padding: 6rem 0 0;
@@ -63,7 +68,7 @@
 }
 @media (max-width: 37.5em) {
   .section-image {
-    padding: 2.2rem 0 0;
+    padding: 5.4rem 0 2rem;
   }
 }
 

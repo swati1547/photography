@@ -166,6 +166,11 @@
     padding: 18rem 2rem 4rem;
   }
 }
+@media (max-width: 37.5em) {
+  .section-celebrity {
+    padding: 20rem 2rem 4rem;
+  }
+}
 
 .section-image {
   padding: 6rem 0 0;
@@ -177,7 +182,7 @@
 }
 @media (max-width: 37.5em) {
   .section-image {
-    padding: 2.2rem 0 0;
+    padding: 5.4rem 0 2rem;
   }
 }
 
@@ -222,7 +227,7 @@
 }
 @media (max-width: 37.5em) {
   .top-btn {
-    bottom: 2.2rem;
+    bottom: 7rem;
     right: 1rem;
   }
 }
@@ -233,7 +238,7 @@
 }
 @media (max-width: 37.5em) {
   .top_icon {
-    font-size: 3.2rem;
+    font-size: 4rem;
   }
 }
 
@@ -257,7 +262,7 @@
 }
 @media (max-width: 37.5em) {
   .share-btn {
-    bottom: 8.1rem;
+    bottom: 14rem;
     right: 1.6rem;
   }
 }
@@ -265,11 +270,6 @@
 .share-icon {
   font-size: 3.5rem;
   color: #1A1A1D;
-}
-@media (max-width: 37.5em) {
-  .share-icon {
-    font-size: 2.7rem;
-  }
 }
 
 .copied-alert {
@@ -644,6 +644,12 @@
 @media (max-width: 37.5em) {
   .carousel-section {
     height: 22rem;
+  }
+}
+
+@media (max-width: 37.5em) {
+  .carousel-inner {
+    padding: 1.04rem 0;
   }
 }
 
@@ -1159,7 +1165,7 @@
 }
 @media (max-width: 37.5em) {
   .contact__logo {
-    height: 2.8rem;
+    height: 3.8rem;
   }
 }
 
@@ -1177,15 +1183,6 @@
 .testimonial-heading__text {
   color: #f7f7f7;
   font-family: "Noto Serif Khojki", serif;
-}
-
-.carousel-inner {
-  line-height: normal;
-}
-@media (max-width: 37.5em) {
-  .carousel-inner {
-    padding: 2rem 0;
-  }
 }
 
 .review-carousel-section {
@@ -1260,14 +1257,14 @@
   position: relative;
 }
 .re-carousel__review {
-  font-size: 1.7rem;
+  font-size: 1.8rem;
   margin: 0 3rem;
   padding: 2.4rem 1.8rem;
   font-family: "Kalam", cursive;
 }
 @media (max-width: 37.5em) {
   .re-carousel__review {
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     margin: 0;
   }
 }
@@ -1499,8 +1496,8 @@
 }
 @media (max-width: 37.5em) {
   .sicon {
-    font-size: 2.2rem;
-    margin: 0.8rem;
+    font-size: 2.3rem;
+    margin: 1rem;
   }
 }
 
@@ -1619,7 +1616,7 @@
 @media (max-width: 37.5em) {
   .icons-bar__icons {
     font-size: 2rem;
-    margin: 0.2rem;
+    margin: 0.7rem 0.2rem;
   }
 }
 .icons-bar__icon {
@@ -1943,7 +1940,7 @@ nav a.active {
 
 @media only screen and (max-width: 993px) {
   .sub-nav-component {
-    padding: 0;
+    padding: 0 1rem;
     font-size: 1.6rem;
     text-align: right;
   }

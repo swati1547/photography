@@ -23,7 +23,7 @@
 @media (max-width: 37.5em) {
   .icons-bar__icons {
     font-size: 2rem;
-    margin: 0.2rem;
+    margin: 0.7rem 0.2rem;
   }
 }
 .icons-bar__icon {
