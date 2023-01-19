@@ -1,14 +1,14 @@
 @import './Mixin.scss';
 
 .gallery-block-front{
-    padding: 0rem 20rem 5rem;
+    padding: 0rem 20rem;
 
     @include respond(tab-land){
-        padding: 0 12rem 0;
+        padding: 0 12rem;
     }
 
     @include respond(tab-port){
-        padding: 0 8rem 0;
+        padding: 0 8rem;
     }
 
     @include respond(phone){

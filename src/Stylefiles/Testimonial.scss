@@ -18,6 +18,9 @@
 
 .carousel-inner{
     line-height: normal;
+    @include respond(phone){  
+        padding: 2rem 0;
+    }
 }
 
 .review-carousel-section{

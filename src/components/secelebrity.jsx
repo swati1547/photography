@@ -65,7 +65,7 @@ function SecCel(){
                 <div className='button-div u-margin-top-huge'>
                     <button className='button'>
                         <span>
-                        <Link className='btn-link' to='/img-gallery'>See all images</Link>
+                        <Link className='btn-link' to='/img-gallery/celebrity'>See all images</Link>
                         </span>
                     </button>
                 </div>

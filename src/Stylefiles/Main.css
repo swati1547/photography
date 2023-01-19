@@ -163,7 +163,7 @@
 }
 @media (max-width: 56.25em) {
   .section-celebrity {
-    padding: 16rem 2rem 4rem;
+    padding: 18rem 2rem 4rem;
   }
 }
 
@@ -203,6 +203,7 @@
 }
 
 .top-btn {
+  cursor: pointer;
   position: fixed;
   bottom: 8rem;
   right: 3rem;
@@ -237,6 +238,7 @@
 }
 
 .share-btn {
+  cursor: pointer;
   position: fixed;
   bottom: 15.5rem;
   right: 3.7rem;
@@ -848,16 +850,16 @@
 }
 
 .gallery-block-front {
-  padding: 0rem 20rem 5rem;
+  padding: 0rem 20rem;
 }
 @media (max-width: 75em) {
   .gallery-block-front {
-    padding: 0 12rem 0;
+    padding: 0 12rem;
   }
 }
 @media (max-width: 56.25em) {
   .gallery-block-front {
-    padding: 0 8rem 0;
+    padding: 0 8rem;
   }
 }
 @media (max-width: 37.5em) {
@@ -1133,7 +1135,7 @@
 }
 @media (max-width: 37.5em) {
   .follow_us {
-    padding: 2rem 1rem;
+    padding: 3rem 1rem;
   }
 }
 
@@ -1179,6 +1181,11 @@
 
 .carousel-inner {
   line-height: normal;
+}
+@media (max-width: 37.5em) {
+  .carousel-inner {
+    padding: 2rem 0;
+  }
 }
 
 .review-carousel-section {

@@ -1,5 +1,5 @@
 import React from 'react';
-import mainpic from '../images/about-main2.jpeg'
+import mainpic from '../images/about-main.jpeg'
 import Navbar1 from './Navbar1'
 import photographer from '../images/photographer.jpeg'
 import model from '../images/model-pic.jpeg'

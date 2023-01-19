@@ -1,22 +1,22 @@
 import React,{useState} from 'react';
 import Masonry, {ResponsiveMasonry} from "react-responsive-masonry"
 import {VscChromeClose, VscChevronLeft, VscChevronRight} from 'react-icons/vsc'
-
+import { Link } from "react-router-dom"
 
 
 const images = [
-'https://nilgrjebucket.s3.ap-south-1.amazonaws.com/images/pre-wedding/prew-12_11zon.jpeg',
-'https://nilgrjebucket.s3.ap-south-1.amazonaws.com/images/wedding/wed-15_11zon.jpeg',
-'https://nilgrjebucket.s3.ap-south-1.amazonaws.com/images/wedding/wed-33_11zon.jpeg',
-'https://nilgrjebucket.s3.ap-south-1.amazonaws.com/images/pre-wedding/prew-16_11zon.jpeg',
-'https://nilgrjebucket.s3.ap-south-1.amazonaws.com/images/wedding/wed-7_11zon.jpeg',
-'https://nilgrjebucket.s3.ap-south-1.amazonaws.com/images/wedding/wed-11_11zon.jpeg',
-'https://nilgrjebucket.s3.ap-south-1.amazonaws.com/images/wedding/wed-49_11zon.jpeg',
-'https://nilgrjebucket.s3.ap-south-1.amazonaws.com/images/Maternity/mat-9_11zon.jpeg',
-'https://nilgrjebucket.s3.ap-south-1.amazonaws.com/images/Maternity/mat-4_11zon.jpeg',
-'https://nilgrjebucket.s3.ap-south-1.amazonaws.com/images/kids/kid-10_11zon.jpeg',
-'https://nilgrjebucket.s3.ap-south-1.amazonaws.com/images/kids/kid-20_11zon.jpeg',
-'https://nilgrjebucket.s3.ap-south-1.amazonaws.com/images/Maternity/mat-17_11zon.jpeg',
+'https://nilgrjebucket.s3.ap-south-1.amazonaws.com/images/pre-wedding/p21.jpeg',
+'https://nilgrjebucket.s3.ap-south-1.amazonaws.com/images/wedding/w22.jpeg',
+'https://nilgrjebucket.s3.ap-south-1.amazonaws.com/images/wedding/w19.jpeg',
+'https://nilgrjebucket.s3.ap-south-1.amazonaws.com/images/pre-wedding/p25.jpeg',
+'https://nilgrjebucket.s3.ap-south-1.amazonaws.com/images/wedding/w13.jpeg',
+'https://nilgrjebucket.s3.ap-south-1.amazonaws.com/images/wedding/w17.jpg',
+'https://nilgrjebucket.s3.ap-south-1.amazonaws.com/images/wedding/w29.jpeg',
+'https://nilgrjebucket.s3.ap-south-1.amazonaws.com/images/Maternity/m9.jpeg',
+'https://nilgrjebucket.s3.ap-south-1.amazonaws.com/images/Maternity/m4.jpeg',
+'https://nilgrjebucket.s3.ap-south-1.amazonaws.com/images/kids/k7.jpeg',
+'https://nilgrjebucket.s3.ap-south-1.amazonaws.com/images/kids/k17.jpeg',
+'https://nilgrjebucket.s3.ap-south-1.amazonaws.com/images/Maternity/m17.jpeg',
 ]
 
 const Image = () => {
@@ -77,6 +77,14 @@ const Image = () => {
                     </Masonry>
                 </ResponsiveMasonry>
                 </div>
+            </div>
+            <div className='button-div u-margin-top-huge'>
+                <p>For more images</p>
+                <button className='button'>
+                    <span>
+                    <Link className='btn-link' to='/img-gallery'>Go To Gallery</Link>
+                    </span>
+                </button>
             </div>
         </div>
     )

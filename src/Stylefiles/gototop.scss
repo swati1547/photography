@@ -1,6 +1,7 @@
 @import './Mixin.scss';
 
 .top-btn{
+    cursor: pointer;
     position: fixed;
     bottom: 8rem;
     right: 3rem;
@@ -31,6 +32,7 @@
 }
 
 .share-btn{
+    cursor: pointer;
     position: fixed;
     bottom: 15.5rem;
     right: 3.7rem;

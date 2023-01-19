@@ -17,6 +17,11 @@
 .carousel-inner {
   line-height: normal;
 }
+@media (max-width: 37.5em) {
+  .carousel-inner {
+    padding: 2rem 0;
+  }
+}
 
 .review-carousel-section {
   background-color: #ebebeb;

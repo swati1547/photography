@@ -1,12 +1,12 @@
 import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
-import pic1 from '../images/media/car-1.jpeg'
-import pic2 from '../images/media/car-2.jpeg'
-import pic3 from '../images/media/car-3.jpeg'
-import pic4 from '../images/media/car-4.jpeg'
-import pic5 from '../images/media/car-5.jpeg'
-import pic6 from '../images/media/car-6.jpeg'
-import pic7 from '../images/media/car-7.jpeg'
+import pic1 from '../images/car-1.jpeg'
+import pic2 from '../images/car-2.jpeg'
+import pic3 from '../images/car-3.jpeg'
+import pic4 from '../images/car-4.jpeg'
+import pic5 from '../images/car-5.jpeg'
+import pic6 from '../images/car-6.jpeg'
+import pic7 from '../images/car-7.jpeg'
 
 function Piccarousel(){
     return(

@@ -1,6 +1,6 @@
 import React from 'react';
-import pic1 from '../images/pre-wedding/prew-dp.jpeg'
-import pic2 from '../images/celebrity/cinema-dp.jpeg'
+import pic1 from '../images/prew-dp.jpeg'
+import pic2 from '../images/cinema-dp.jpeg'
 import backvideo from '../images/back_vid.mp4'
 import { Link } from 'react-router-dom';
 

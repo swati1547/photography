@@ -3,21 +3,20 @@ import Masonry, {ResponsiveMasonry} from "react-responsive-masonry"
 import {VscChromeClose, VscChevronLeft, VscChevronRight} from 'react-icons/vsc'
 
 
-
 const images = [
-    'https://nilgrjebucket.s3.ap-south-1.amazonaws.com/images/celebrity/cel-1.jpeg',
-'https://nilgrjebucket.s3.ap-south-1.amazonaws.com/images/celebrity/cel-2.jpeg',
-'https://nilgrjebucket.s3.ap-south-1.amazonaws.com/images/celebrity/cel-3.jpeg',
-'https://nilgrjebucket.s3.ap-south-1.amazonaws.com/images/celebrity/cel-4.jpeg',
-'https://nilgrjebucket.s3.ap-south-1.amazonaws.com/images/celebrity/cel-5.jpg',
-'https://nilgrjebucket.s3.ap-south-1.amazonaws.com/images/celebrity/cel-7_11zon.jpeg',
-'https://nilgrjebucket.s3.ap-south-1.amazonaws.com/images/celebrity/cel-8_11zon.jpeg',
-'https://nilgrjebucket.s3.ap-south-1.amazonaws.com/images/celebrity/cel-9_11zon.jpeg',
-'https://nilgrjebucket.s3.ap-south-1.amazonaws.com/images/celebrity/cel-10_11zon.jpeg',
-'https://nilgrjebucket.s3.ap-south-1.amazonaws.com/images/celebrity/cel-11_11zon.jpeg',
-'https://nilgrjebucket.s3.ap-south-1.amazonaws.com/images/celebrity/cel-12_11zon.jpeg',
-'https://nilgrjebucket.s3.ap-south-1.amazonaws.com/images/celebrity/cel-13_11zon.jpeg',
-'https://nilgrjebucket.s3.ap-south-1.amazonaws.com/images/celebrity/cel-14_11zon.jpeg',
+    'https://nilgrjebucket.s3.ap-south-1.amazonaws.com/images/celebrity/c1.jpeg',
+    'https://nilgrjebucket.s3.ap-south-1.amazonaws.com/images/celebrity/c2.jpeg',
+    'https://nilgrjebucket.s3.ap-south-1.amazonaws.com/images/celebrity/c3.jpeg',
+    'https://nilgrjebucket.s3.ap-south-1.amazonaws.com/images/celebrity/c4.jpeg',
+    'https://nilgrjebucket.s3.ap-south-1.amazonaws.com/images/celebrity/c5.jpg',
+    'https://nilgrjebucket.s3.ap-south-1.amazonaws.com/images/celebrity/c6.jpeg',
+    'https://nilgrjebucket.s3.ap-south-1.amazonaws.com/images/celebrity/c7.jpeg',
+    'https://nilgrjebucket.s3.ap-south-1.amazonaws.com/images/celebrity/c8.jpeg',
+    'https://nilgrjebucket.s3.ap-south-1.amazonaws.com/images/celebrity/c9.jpeg',
+    'https://nilgrjebucket.s3.ap-south-1.amazonaws.com/images/celebrity/c10.jpeg',
+    'https://nilgrjebucket.s3.ap-south-1.amazonaws.com/images/celebrity/c11.jpeg',
+    'https://nilgrjebucket.s3.ap-south-1.amazonaws.com/images/celebrity/c12.jpeg',
+    'https://nilgrjebucket.s3.ap-south-1.amazonaws.com/images/celebrity/c13.jpeg',
 ]
 
 const Celebrity = () => {

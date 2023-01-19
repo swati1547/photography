@@ -1,14 +1,14 @@
 .gallery-block-front {
-  padding: 0rem 20rem 5rem;
+  padding: 0rem 20rem;
 }
 @media (max-width: 75em) {
   .gallery-block-front {
-    padding: 0 12rem 0;
+    padding: 0 12rem;
   }
 }
 @media (max-width: 56.25em) {
   .gallery-block-front {
-    padding: 0 8rem 0;
+    padding: 0 8rem;
   }
 }
 @media (max-width: 37.5em) {
