@@ -4,7 +4,7 @@
   top: 18vh;
   right: 1.4rem;
 }
-@media (max-width: 75em) {
+@media (max-width: 76em) {
   .icons-bar {
     top: 14vh;
     right: 1.2rem;

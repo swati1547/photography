@@ -3,8 +3,7 @@
   text-transform: uppercase;
   font-size: 6.5rem;
   padding-bottom: 1.5rem;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 .heading-primary__main {
   display: block;
@@ -12,12 +11,9 @@
   font-weight: 700;
   letter-spacing: 2.5rem;
   margin-bottom: 2.5rem;
-  -webkit-animation-name: moveInLeft;
-          animation-name: moveInLeft;
-  -webkit-animation-duration: 1s;
-          animation-duration: 1s;
-  -webkit-animation-timing-function: ease-out;
-          animation-timing-function: ease-out;
+  animation-name: moveInLeft;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
 }
 @media (max-width: 37.5em) {
   .heading-primary__main {
@@ -30,12 +26,9 @@
   font-size: 2rem;
   font-weight: 700;
   letter-spacing: 1.75rem;
-  -webkit-animation-name: moveInRight;
-          animation-name: moveInRight;
-  -webkit-animation-duration: 1s;
-          animation-duration: 1s;
-  -webkit-animation-timing-function: ease-out;
-          animation-timing-function: ease-out;
+  animation-name: moveInRight;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
 }
 @media (max-width: 37.5em) {
   .heading-primary__sub {

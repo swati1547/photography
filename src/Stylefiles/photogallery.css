@@ -43,9 +43,9 @@
 .gallery-block {
   padding: 6rem 17rem 10rem;
 }
-@media (max-width: 75em) {
+@media (max-width: 76em) {
   .gallery-block {
-    padding: 5rem 11rem 10rem;
+    padding: 5rem 16rem 10rem;
   }
 }
 @media (max-width: 56.25em) {

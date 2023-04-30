@@ -1,7 +1,7 @@
 .cinema {
   padding: 6rem 17rem;
 }
-@media (max-width: 75em) {
+@media (max-width: 76em) {
   .cinema {
     padding: 6rem 10rem;
   }
@@ -24,7 +24,7 @@
   display: flex;
   padding: 0.2rem;
 }
-@media (max-width: 75em) {
+@media (max-width: 76em) {
   .cinema__card {
     margin: 0;
   }
@@ -35,7 +35,7 @@
   text-align: center;
   font-size: 1.6rem;
 }
-@media (max-width: 75em) {
+@media (max-width: 76em) {
   .cinema__card-body {
     padding: 2rem 4rem;
   }

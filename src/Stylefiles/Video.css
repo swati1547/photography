@@ -1,9 +1,9 @@
 .video-sec-block {
   padding: 0 21rem;
 }
-@media (max-width: 75em) {
+@media (max-width: 76em) {
   .video-sec-block {
-    padding: 0 16rem;
+    padding: 0 12rem;
   }
 }
 @media (max-width: 56.25em) {

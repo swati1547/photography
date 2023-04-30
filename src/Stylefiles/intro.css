@@ -20,27 +20,10 @@
   letter-spacing: 0.2rem;
   margin-top: 5rem;
   text-transform: none;
-  -webkit-animation-name: moveUp;
-          animation-name: moveUp;
-  -webkit-animation-duration: 1s;
-          animation-duration: 1s;
-  -webkit-animation-delay: 0.5s;
-          animation-delay: 0.5s;
-  -webkit-animation-timing-function: ease-out;
-          animation-timing-function: ease-out;
-}
-
-@-webkit-keyframes moveInLeft {
-  0% {
-    opacity: 0;
-    transform: translateX(-10rem);
-  }
-  80% {
-    transform: translateX(1rem);
-  }
-  100% {
-    opacity: 1;
-  }
+  animation-name: moveUp;
+  animation-duration: 1s;
+  animation-delay: 0.5s;
+  animation-timing-function: ease-out;
 }
 @keyframes moveInLeft {
   0% {
@@ -49,18 +32,6 @@
   }
   80% {
     transform: translateX(1rem);
-  }
-  100% {
-    opacity: 1;
-  }
-}
-@-webkit-keyframes moveInRight {
-  0% {
-    opacity: 0;
-    transform: translateX(10rem);
-  }
-  80% {
-    transform: translateX(-1rem);
   }
   100% {
     opacity: 1;
@@ -78,15 +49,6 @@
     opacity: 1;
   }
 }
-@-webkit-keyframes moveUp {
-  0% {
-    opacity: 0;
-    transform: translateY(5rem);
-  }
-  100% {
-    opacity: 1;
-  }
-}
 @keyframes moveUp {
   0% {
     opacity: 0;
@@ -95,4 +57,4 @@
   100% {
     opacity: 1;
   }
-} /*# sourceMappingURL=intro.css.map *//*# sourceMappingURL=intro.css.map */
+} /*# sourceMappingURL=intro.css.map */
