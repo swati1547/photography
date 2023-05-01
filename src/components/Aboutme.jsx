@@ -24,13 +24,13 @@ function Aboutme(){
                     <h2 className='heading-tertiory about-headings'>nilesh somnath garje</h2>
                     <p>I am Nil Garje wedding photographer, professional model the owner of Nil Garje 
                     Photography & Attitude Modelling institute based in Pune. I completed my post graduation 
-                    MBA in marketing. </p>
-                    <p>many years ago I started clicking photos as a inherited hobby and skill from my father.
+                    MBA in marketing.<br/>
+                    Many years ago I started clicking photos as a inherited hobby and skill from my father.
                     I gain interest in capturing special moments in someones life which makes very great
-                    memories. then by dedication, passion and interest I improve my skills day by day to 
-                    be a professional photographer.
-                    Working as model in photography workshop there is big lesson for me for grow my 
-                    photography skill.
+                    memories. then by dedication, passion and interest I improved my skills day by day to 
+                    be a professional photographer.<br/>
+                    Working as model in photography workshop is big lesson for me to grow my 
+                    photography.
                     </p>
                 </div>
             </div>

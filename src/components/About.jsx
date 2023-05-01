@@ -19,10 +19,10 @@ function About(){
                     <h3 className='heading-tertiory u-margin-bottom-small'>
                         Passionate photographer
                     </h3>
-                    <p className='paragraph'>Hello, My name is Nilesh Garje, I’m a wedding photographer based
-                    in Pune Attempting to capture honest & authentic moments in any event as maternity, babyshower, baby shoot, pre-wedding,
-                        wedding, post wedding, fashion shoot, celebrity shoot, etc. <br/>
-                        Service is available in all maharashtra.
+                    <p className='paragraph'>Hello, I’m Nilesh Garje. I’m a wedding photographer based
+                        in Pune Attempting to capture honest & authentic moments in any event as Maternity, Babyshower, Baby-shoot,
+                        Pre-wedding, Wedding, Post-wedding, Fashion shoot, Celebrity shoot, etc. <br/>
+                        <span style={{color: "black"}}>Service is available in all Maharashtra.</span>
                     </p>
                     {/* first paragraph ends */}
 
@@ -31,9 +31,9 @@ function About(){
                         model
                     </h3>
                     <p className='paragraph'>
-                    Nil Garje here professional fashion model. 
-                    I have organise 12 events as organiser.
-                    Participanted in 15+ events as model. 
+                    Nil Garje, professional fashion model. 
+                    participanted in 15+ events as model.
+                    I have organise 12 events as organiser, also owner of Attitude Modeling Institute.
                     </p>
                     {/* second paragraph ends */}
 

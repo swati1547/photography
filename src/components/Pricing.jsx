@@ -18,7 +18,7 @@ function Pricing(){
                     <div className='price-format'>
                         <h3 className='plan-head'> Pre-wedding </h3>
                         <p className='plan-para'>Photoshoot, Video shoot</p>
-                        <p className='plan-para'>Edited photo + video song</p>
+                        <p className='plan-para'>Edited photo + Video song</p>
                         <p className='plan-para'>1 Day - Amount-40,000/-</p>
                         <p className='plan-para'>2 Days - Amount-75,000/-</p>
                     </div>
@@ -34,7 +34,7 @@ function Pricing(){
                         <p className='plan-para'>1 regular photographer </p>
                         <p className='plan-para'>1 regular videographer </p>
                         <p className='plan-para'>Traditional video </p>
-                        <p className='plan-para'>1 hilight song + full event video cd or pd. </p>
+                        <p className='plan-para'>1 Highlight song + full event video cd or pd. </p>
                         <p className='plan-para'> Amount  -  45,000/-</p>
                     </div>
 
@@ -47,8 +47,8 @@ function Pricing(){
 
                     <div className='price-format'>
                         <h3 className='plan-head'>Cinematography</h3>
-                        <p className='plan-para'>1 cinematographer(14,000/day)</p>
-                        <p className='plan-para'>Duration of video ( 10 to 18 minutes wedding story , and  treller one song) </p>
+                        <p className='plan-para'>1 Cinematographer(14,000/day)</p>
+                        <p className='plan-para'>Duration of video ( 10 to 18 minutes wedding story, and one trailer song) </p>
                         <p className='plan-para'>Amount - 28,000/-</p>
                     </div>
                 </div>
@@ -56,12 +56,12 @@ function Pricing(){
                 <div className='points-sec'>
                 <h2 className='heading-tertiory'>Our Wedding Packages Include:</h2>
                 <ul>
-                    <li>Professional candid photographer</li>
-                    <li>Professional traditional photographer</li>
-                    <li>Professional traditional videographer</li>
-                    <li>We provide same edited photos</li>
-                    <li>Full event hd 4k video</li>
-                    <li>Album size 12x36 photobook NT  matt/glossy + 1 minibook album + 1 calendar</li>
+                    <li>Professional candid photographer.</li>
+                    <li>Professional traditional photographer.</li>
+                    <li>Professional traditional videographer.</li>
+                    <li>We provide edited photos.</li>
+                    <li>Full event HD 4k video.</li>
+                    <li>Album size 12x36 photobook NT  matt/glossy + 1 minibook album + 1 calendar.</li>
                     <li>Food and stay by client side.</li>
                 </ul>
                 </div>

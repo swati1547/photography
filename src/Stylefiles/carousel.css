@@ -1,7 +1,7 @@
 .carousel-section {
   height: 60rem;
 }
-@media (max-width: 76em) {
+@media (max-width: 77em) {
   .carousel-section {
     height: 56rem;
   }
@@ -32,9 +32,9 @@
   height: 100%;
   position: relative;
 }
-@media (max-width: 76em) {
+@media (max-width: 77em) {
   .carousel__image {
-    height: 56rem;
+    height: 51rem;
   }
 }
 @media (max-width: 56.25em) {
@@ -74,7 +74,7 @@
   top: 3.5rem;
   right: 10rem;
 }
-@media (max-width: 76em) {
+@media (max-width: 77em) {
   .carousel_text__pre_wed {
     right: 5rem;
   }
@@ -97,7 +97,7 @@
   top: 4.5rem;
   right: 20rem;
 }
-@media (max-width: 76em) {
+@media (max-width: 77em) {
   .carousel_text__wed {
     top: 4.5rem;
     right: 11rem;
@@ -120,7 +120,7 @@
   bottom: 8rem;
   right: 5rem;
 }
-@media (max-width: 76em) {
+@media (max-width: 77em) {
   .carousel_text__maternity {
     bottom: 7rem;
     right: 4rem;
@@ -143,7 +143,7 @@
   bottom: 8rem;
   left: 36rem;
 }
-@media (max-width: 76em) {
+@media (max-width: 77em) {
   .carousel_text__kid {
     bottom: 8rem;
     left: 12rem;
@@ -166,7 +166,7 @@
   bottom: 5rem;
   left: 14rem;
 }
-@media (max-width: 76em) {
+@media (max-width: 77em) {
   .carousel_text__fashion {
     bottom: 5rem;
     left: 1rem;
@@ -183,7 +183,7 @@
   bottom: 14rem;
   left: 28rem;
 }
-@media (max-width: 76em) {
+@media (max-width: 77em) {
   .carousel_text__celebrity {
     bottom: 13rem;
     left: 9rem;
@@ -206,7 +206,7 @@
   top: 5rem;
   left: 18rem;
 }
-@media (max-width: 76em) {
+@media (max-width: 77em) {
   .carousel_text__event {
     top: 6rem;
     left: 8rem;

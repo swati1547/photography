@@ -5,7 +5,7 @@
   right: 3rem;
   z-index: 2;
 }
-@media (max-width: 76em) {
+@media (max-width: 77em) {
   .top-btn {
     bottom: 6rem;
   }
@@ -40,7 +40,7 @@
   right: 3.7rem;
   z-index: 2;
 }
-@media (max-width: 76em) {
+@media (max-width: 77em) {
   .share-btn {
     bottom: 13.5rem;
   }
@@ -70,7 +70,7 @@
   right: 3rem;
   font-size: 1.4rem;
 }
-@media (max-width: 76em) {
+@media (max-width: 77em) {
   .copied-alert {
     bottom: 17rem;
   }

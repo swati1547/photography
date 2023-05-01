@@ -1,7 +1,7 @@
 .gallery-block-front {
   padding: 0rem 20rem;
 }
-@media (max-width: 76em) {
+@media (max-width: 77em) {
   .gallery-block-front {
     padding: 1rem 15rem;
   }

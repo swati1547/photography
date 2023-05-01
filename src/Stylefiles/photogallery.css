@@ -43,7 +43,7 @@
 .gallery-block {
   padding: 6rem 17rem 10rem;
 }
-@media (max-width: 76em) {
+@media (max-width: 77em) {
   .gallery-block {
     padding: 5rem 16rem 10rem;
   }
