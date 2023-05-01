@@ -89,5 +89,9 @@ $color-grey-light: #f7f7f7;
 .about-img{
     width: 94%;
     height: 91%;
+    
+    @include respond(tab-land){
+        height: 85%;
+    }
 }
 // about image section ends

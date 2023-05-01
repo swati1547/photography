@@ -131,7 +131,7 @@
 }
 @media (max-width: 77em) {
   .section-services {
-    padding: 13rem 20.3rem 10rem;
+    padding: 13rem 20rem 10rem;
   }
 }
 @media (max-width: 56.25em) {
@@ -459,6 +459,11 @@
 .about-img {
   width: 94%;
   height: 91%;
+}
+@media (max-width: 77em) {
+  .about-img {
+    height: 85%;
+  }
 }
 
 .section-services {
