@@ -15,7 +15,7 @@ function Services(){
                             photography
                         </h4>
                         <p className='service-box__text'>
-                            Photography for all type of events. Single photographer or team of professional 
+                            Photography for all events. Single photographer or team of professional 
                             photographers available as need or order. 
                         </p>
                     </div> 
